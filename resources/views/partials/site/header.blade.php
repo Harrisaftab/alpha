@@ -57,23 +57,6 @@
             <span class="menu-lines"><span></span></span>
           </button>
           <div class=" navbar-collapse" id="mainNavigation">
-            {{-- <ul class="navbar-nav ml-auto">
-              <li class="nav__item">
-                <a href="{{ route('home') }}" class="nav__item-link active">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ route('about') }}" class="nav__item-link">About Us</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ route('all_services.index') }}" class="nav__item-link">Products</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ route('certifications') }}" class="nav__item-link">Certifications</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ route('contact') }}" class="nav__item-link">Contacts</a>
-              </li>
-            </ul> --}}
             <ul class="navbar-nav ml-auto">
                 <li class="nav__item {{ request()->routeIs('home') ? 'active' : '' }}">
                     <a href="{{ route('home') }}" class="nav__item-link {{ request()->routeIs('home') ? 'active' : '' }}">Home</a>

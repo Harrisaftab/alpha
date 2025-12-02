@@ -8,7 +8,7 @@
         <div class="slick-carousel m-slides-0"
             data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
             <div class="slide-item align-v-h">
-                <div class="bg-img"><img src="web-assets/images/sliders/1.png" alt="slide img"></div>
+                <div class="bg-img"><img src="{{ asset('web-assets/images/sliders/1.png') }}" alt="slide img"></div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="slide-item align-v-h">
-                <div class="bg-img"><img src="web-assets/images/sliders/1.png" alt="slide img"></div>
+                <div class="bg-img"><img src="{{ asset('web-assets/images/sliders/1.png') }}" alt="slide img"></div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
@@ -177,7 +177,7 @@
               </div>
             </div>
             <div class="video-banner-layout2 bg-overlay">
-              <img src="web-assets/images/about/2.jpg" alt="about" class="w-100">
+              <img src="{{ asset('web-assets/images/about/2.jpg') }}" alt="about" class="w-100">
               <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                 <div class="video__player">
                   <i class="fa fa-play"></i>
@@ -214,7 +214,7 @@
     </section>
 
     <section class="services-layout1 services-carousel">
-        <div class="bg-img"><img src="web-assets/images/backgrounds/2.jpg" alt="background"></div>
+        <div class="bg-img"><img src="{{ asset('web-assets/images/backgrounds/2.jpg') }}" alt="background"></div>
         <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -403,7 +403,7 @@
     </section>
 
     <section class="features-layout2 pt-130 bg-overlay bg-overlay-primary">
-      <div class="bg-img"><img src="web-assets/images/backgrounds/2.jpg" alt="background"></div>
+      <div class="bg-img"><img src="{{ asset('web-assets/images/backgrounds/2.jpg') }}" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
@@ -426,7 +426,7 @@
               professionals actively participates in numerous initiatives aimed at creating sustainable change for
               patients!
             </p>
-            <a href="#" class="btn btn__white btn__link">
+            <a href="{{ route('home') }}" class="btn btn__white btn__link">
               <i class="icon-arrow-right icon-filled"></i>
               <span>Our Core Values</span>
             </a>
@@ -437,7 +437,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/1.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/1.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -445,7 +445,7 @@
                 </div>
                 <h4 class="feature__title">Medical Advices & Check Ups</h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -454,7 +454,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/2.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/2.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -462,7 +462,7 @@
                 </div>
                 <h4 class="feature__title">Trusted Medical Treatment </h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -471,7 +471,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/3.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/3.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -479,7 +479,7 @@
                 </div>
                 <h4 class="feature__title">Emergency Help Available 24/7</h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -488,7 +488,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/4.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/4.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -496,7 +496,7 @@
                 </div>
                 <h4 class="feature__title">Medical Research Professionals </h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -505,7 +505,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/5.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/5.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -513,7 +513,7 @@
                 </div>
                 <h4 class="feature__title">Only Qualified Doctors</h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -522,7 +522,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/6.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/6.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -530,7 +530,7 @@
                 </div>
                 <h4 class="feature__title">Cutting Edge Facility</h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -539,7 +539,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/7.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/7.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -547,7 +547,7 @@
                 </div>
                 <h4 class="feature__title">Affordable Prices For All Patients</h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -556,7 +556,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="web-assets/images/services/8.jpg" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/8.jpg') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -564,7 +564,7 @@
                 </div>
                 <h4 class="feature__title">Quality Care For Every Patient</h4>
               </div>
-              <a href="#" class="btn__link">
+              <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -574,7 +574,7 @@
           <div class="col-md-12 col-lg-6 offset-lg-3 text-center">
             <p class="font-weight-bold color-gray mb-0">We hope you will allow us to care for you and strive to be the
               first and best choice for healthcare.
-              <a href="#" class="color-secondary">
+              <a href="{{ route('home') }}" class="color-secondary">
                 <span>Contact Us For More Information</span> <i class="icon-arrow-right"></i>
               </a>
             </p>
@@ -602,7 +602,7 @@
               
               <div class="member">
                 <div class="member__img">
-                  <img src="web-assets/images/team/1.jpg" alt="member img">
+                  <img src="{{ asset('web-assets/images/team/1.jpg') }}" alt="member img">
                 </div>
                 <div class="member__info">
                   <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
@@ -615,9 +615,9 @@
                       <i class="icon-arrow-right"></i>
                     </a>
                     <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -625,7 +625,7 @@
               
               <div class="member">
                 <div class="member__img">
-                  <img src="web-assets/images/team/2.jpg" alt="member img">
+                  <img src="{{ asset('web-assets/images/team/2.jpg') }}" alt="member img">
                 </div>
                 <div class="member__info">
                   <h5 class="member__name"><a href="doctors-single-doctor1.html">Dermatologists</a></h5>
@@ -638,9 +638,9 @@
                       <i class="icon-arrow-right"></i>
                     </a>
                     <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -648,7 +648,7 @@
               
               <div class="member">
                 <div class="member__img">
-                  <img src="web-assets/images/team/3.jpg" alt="member img">
+                  <img src="{{ asset('web-assets/images/team/3.jpg') }}" alt="member img">
                 </div>
                 <div class="member__info">
                   <h5 class="member__name"><a href="doctors-single-doctor1.html">Maria Andaloro</a></h5>
@@ -661,9 +661,9 @@
                       <i class="icon-arrow-right"></i>
                     </a>
                     <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -671,7 +671,7 @@
               
               <div class="member">
                 <div class="member__img">
-                  <img src="web-assets/images/team/4.jpg" alt="member img">
+                  <img src="{{ asset('web-assets/images/team/4.jpg') }}" alt="member img">
                 </div>
                 <div class="member__info">
                   <h5 class="member__name"><a href="doctors-single-doctor1.html">Dupree Black</a></h5>
@@ -685,9 +685,9 @@
                       <i class="icon-arrow-right"></i>
                     </a>
                     <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -695,7 +695,7 @@
               
               <div class="member">
                 <div class="member__img">
-                  <img src="web-assets/images/team/5.jpg" alt="member img">
+                  <img src="{{ asset('web-assets/images/team/5.jpg') }}" alt="member img">
                 </div>
                 <div class="member__info">
                   <h5 class="member__name"><a href="doctors-single-doctor1.html">Markus skar</a></h5>
@@ -708,9 +708,9 @@
                       <i class="icon-arrow-right"></i>
                     </a>
                     <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -718,7 +718,7 @@
               
               <div class="member">
                 <div class="member__img">
-                  <img src="web-assets/images/team/6.jpg" alt="member img">
+                  <img src="{{ asset('web-assets/images/team/6.jpg') }}" alt="member img">
                 </div>
                 <div class="member__info">
                   <h5 class="member__name"><a href="doctors-single-doctor1.html">Kiano Barker</a></h5>
@@ -731,9 +731,9 @@
                       <i class="icon-arrow-right"></i>
                     </a>
                     <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -745,7 +745,7 @@
     </section>
 
     <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
-      <div class="bg-img"><img src="web-assets/images/banners/1.jpg" alt="background"></div>
+      <div class="bg-img"><img src="{{ asset('web-assets/images/banners/1.jpg') }}" alt="background"></div>
       <div class="container">
         <div class="row heading-layout2">
           <div class="col-12">
@@ -786,7 +786,7 @@
                   <p class="process__desc">Medcity offers low-cost health coverage for adults with limited income, you
                     can
                     enroll.</p>
-                  <a href="#" class="btn btn__secondary btn__link">
+                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
                     <span>Doctors’ Timetable</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -800,7 +800,7 @@
                   <h4 class="process__title">Review Your Family Medical History</h4>
                   <p class="process__desc">Regular health exams can help find all the problems, also can find it early
                     chances.</p>
-                  <a href="#" class="btn btn__secondary btn__link">
+                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
                     <span>Start A Check Up</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -815,7 +815,7 @@
                   <p class="process__desc">We have protocols to protect our patients while continuing to provide
                     necessary
                     care.</p>
-                  <a href="#" class="btn btn__secondary btn__link">
+                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
                     <span>Explore Programs</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -829,7 +829,7 @@
                   <h4 class="process__title">Introduce You To Highly Qualified Doctors</h4>
                   <p class="process__desc">Our administration and support staff have exceptional skills and trained to
                     assist you. </p>
-                  <a href="#" class="btn btn__secondary btn__link">
+                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
                     <span>Meet Our Doctors</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -843,7 +843,7 @@
                   <h4 class="process__title">Your custom Next process</h4>
                   <p class="process__desc">Our administration and support staff have exceptional skills to assist you.
                   </p>
-                  <a href="#" class="btn btn__secondary btn__link">
+                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
                     <span>Meet Our Doctors</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -857,7 +857,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-sm-12 col-md-2 col-lg-2">
-              <img src="web-assets/images/icons/alert2.png" class="cta__img" alt="alert">
+              <img src="{{ asset('web-assets/images/icons/alert2.png') }}" class="cta__img" alt="alert">
             </div><!-- /.col-lg-2 -->
             <div class="col-sm-12 col-md-7 col-lg-7">
               <h4 class="cta__title">True Healthcare For Your Family!</h4>
@@ -915,7 +915,7 @@
               <div class="slider-nav mb-60">
                 <div class="testimonial__meta">
                   <div class="testimonial__thmb">
-                    <img src="web-assets/images/testimonials/thumbs/1.png" alt="author thumb">
+                    <img src="{{ asset('web-assets/images/testimonials/thumbs/1.png') }}" alt="author thumb">
                   </div><!-- /.testimonial-thumb -->
                   <div>
                     <h4 class="testimonial__meta-title">Sami Wade</h4>
@@ -924,7 +924,7 @@
                 </div><!-- /.testimonial-meta -->
                 <div class="testimonial__meta">
                   <div class="testimonial__thmb">
-                    <img src="web-assets/images/testimonials/thumbs/2.png" alt="author thumb">
+                    <img src="{{ asset('web-assets/images/testimonials/thumbs/2.png') }}" alt="author thumb">
                   </div><!-- /.testimonial-thumb -->
                   <div>
                     <h4 class="testimonial__meta-title">Ahmed</h4>
@@ -933,7 +933,7 @@
                 </div><!-- /.testimonial-meta -->
                 <div class="testimonial__meta">
                   <div class="testimonial__thmb">
-                    <img src="web-assets/images/testimonials/thumbs/3.png" alt="author thumb">
+                    <img src="{{ asset('web-assets/images/testimonials/thumbs/3.png') }}" alt="author thumb">
                   </div><!-- /.testimonial-thumb -->
                   <div>
                     <h4 class="testimonial__meta-title">Sonia Blake</h4>
@@ -953,23 +953,23 @@
           <div class="col-12">
             <div class="slick-carousel"
               data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <a class="popup-gallery-item" href="assets/images/gallery/1.jpg">
-                <img src="web-assets/images/gallery/1.jpg" alt="gallery img">
+              <a class="popup-gallery-item" href="assets/images/gallery/1.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/1.jpg') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/2.jpg">
-                <img src="web-assets/images/gallery/2.jpg" alt="gallery img">
+              <a class="popup-gallery-item" href="assets/images/gallery/2.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/2.jpg') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/3.jpg">
-                <img src="web-assets/images/gallery/3.jpg" alt="gallery img">
+              <a class="popup-gallery-item" href="assets/images/gallery/3.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/3.jpg') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/4.jpg">
-                <img src="web-assets/images/gallery/4.jpg" alt="gallery img">
+              <a class="popup-gallery-item" href="assets/images/gallery/4.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/4.jpg') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/5.jpg">
-                <img src="web-assets/images/gallery/5.jpg" alt="gallery img">
+              <a class="popup-gallery-item" href="assets/images/gallery/5.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/5.jpg') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="web-assets/images/gallery/6.jpg" alt="gallery img">
+              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/6.jpg') }}" alt="gallery img">
               </a>
             </div><!-- /.gallery-images-wrapper -->
           </div><!-- /.col-xl-5 -->
@@ -978,7 +978,7 @@
     </section>
 
     <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
-      <div class="bg-img"><img src="web-assets/images/banners/3.jpg" alt="banner"></div>
+      <div class="bg-img"><img src="{{ asset('web-assets/images/banners/3.jpg') }}" alt="banner"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
@@ -1082,32 +1082,32 @@
             <div class="slick-carousel clients-light mt-20"
               data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
               <div class="client">
-                <img src="web-assets/images/clients/1.png" alt="client">
-                <img src="web-assets/images/clients/1.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/1.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/1.png') }}" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="web-assets/images/clients/2.png" alt="client">
-                <img src="web-assets/images/clients/2.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/2.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/2.png') }}" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="web-assets/images/clients/3.png" alt="client">
-                <img src="web-assets/images/clients/3.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/3.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/3.png') }}" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="web-assets/images/clients/4.png" alt="client">
-                <img src="web-assets/images/clients/4.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/4.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/4.png') }}" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="web-assets/images/clients/5.png" alt="client">
-                <img src="web-assets/images/clients/5.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/5.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/5.png') }}" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="web-assets/images/clients/6.png" alt="client">
-                <img src="web-assets/images/clients/6.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/6.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/6.png') }}" alt="client">
               </div><!-- /.client -->
               <div class="client">
-                <img src="web-assets/images/clients/7.png" alt="client">
-                <img src="web-assets/images/clients/7.png" alt="client">
+                <img src="{{ asset('web-assets/images/clients/7.png') }}" alt="client">
+                <img src="{{ asset('web-assets/images/clients/7.png') }}" alt="client">
               </div><!-- /.client -->
             </div>
           </div><!-- /.col-lg-5 -->
@@ -1131,18 +1131,18 @@
             <div class="post-item">
               <div class="post__img">
                 <a href="blog-single-post.html">
-                  <img src="web-assets/images/blog/grid/1.jpg" alt="post image" loading="lazy">
+                  <img src="{{ asset('web-assets/images/blog/grid/1.jpg') }}" alt="post image" loading="lazy">
                 </a>
               </div><!-- /.post__img -->
               <div class="post__body">
                 <div class="post__meta-cat">
-                  <a href="#">Mental Health</a>
+                  <a href="{{ route('home') }}">Mental Health</a>
                 </div><!-- /.blog-meta-cat -->
                 <div class="post__meta d-flex">
                   <span class="post__meta-date">Jan 30, 2022</span>
-                  <a class="post__meta-author" href="#">Martin King</a>
+                  <a class="post__meta-author" href="{{ route('home') }}">Martin King</a>
                 </div>
-                <h4 class="post__title"><a href="#">6 Tips to Protect Your Mental Health When You’re Sick</a></h4>
+                <h4 class="post__title"><a href="{{ route('home') }}">6 Tips to Protect Your Mental Health When You’re Sick</a></h4>
 
                 <p class="post__desc">It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a
                   condition that’s certainly true if you test positive for COVID-19, or are presumed to be positive...
@@ -1159,18 +1159,18 @@
             <div class="post-item">
               <div class="post__img">
                 <a href="blog-single-post.html">
-                  <img src="web-assets/images/blog/grid/2.jpg" alt="post image" loading="lazy">
+                  <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="post image" loading="lazy">
                 </a>
               </div><!-- /.post__img -->
               <div class="post__body">
                 <div class="post__meta-cat">
-                  <a href="#">Infectious</a><a href="#">Tips</a>
+                  <a href="{{ route('home') }}">Infectious</a><a href="{{ route('home') }}">Tips</a>
                 </div><!-- /.blog-meta-cat -->
                 <div class="post__meta d-flex">
                   <span class="post__meta-date">Jan 30, 2022</span>
-                  <a class="post__meta-author" href="#">John Ezak</a>
+                  <a class="post__meta-author" href="{{ route('home') }}">John Ezak</a>
                 </div>
-                <h4 class="post__title"><a href="#">Unsure About Wearing a Face Mask? Here’s How and Why</a></h4>
+                <h4 class="post__title"><a href="{{ route('home') }}">Unsure About Wearing a Face Mask? Here’s How and Why</a></h4>
                 <p class="post__desc">That means that you should still be following any shelter-in-place orders in your
                   community. But when you’re venturing out to the grocery store, pharmacy or hospital..
                 </p>
@@ -1186,18 +1186,18 @@
             <div class="post-item">
               <div class="post__img">
                 <a href="blog-single-post.html">
-                  <img src="web-assets/images/blog/grid/3.jpg" alt="post image" loading="lazy">
+                  <img src="{{ asset('web-assets/images/blog/grid/3.jpg') }}" alt="post image" loading="lazy">
                 </a>
               </div><!-- /.post__img -->
               <div class="post__body">
                 <div class="post__meta-cat">
-                  <a href="#">Life Style</a><a href="#">Nutrition</a>
+                  <a href="{{ route('home') }}">Life Style</a><a href="{{ route('home') }}">Nutrition</a>
                 </div><!-- /.blog-meta-cat -->
                 <div class="post__meta d-flex">
                   <span class="post__meta-date">Jan 28, 2022</span>
-                  <a class="post__meta-author" href="#">Saul Wade</a>
+                  <a class="post__meta-author" href="{{ route('home') }}">Saul Wade</a>
                 </div>
-                <h4 class="post__title"><a href="#">Tips for Eating Healthy When You’re Working From Home </a></h4>
+                <h4 class="post__title"><a href="{{ route('home') }}">Tips for Eating Healthy When You’re Working From Home </a></h4>
 
                 <p class="post__desc">It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a
                   condition that’s certainly true if you test positive for COVID-19, or are presumed to be positive...
