@@ -136,7 +136,7 @@
               <div class="contact__icon">
                 <i class="icon-heart2"></i>
               </div>
-              <div class="contact__content">
+              <div class="contact__content w-100">
                 <h2 class="contact__title">Business Hours</h2>
                 <ul class="time__list list-unstyled mb-0">
                   <li><span>Monday - Friday</span> <span>9:00 am - 9:00 pm</span></li>
