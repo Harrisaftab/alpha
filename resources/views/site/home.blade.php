@@ -155,7 +155,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
             <div class="heading-layout2">
-              <h3 class="heading__title mb-60">Improving The Quality Of Your <br> Life Through Better Health.</h3>
+              <h3 class="heading__title mb-60">Enhancing Surgical Safety<br>Through Reliable Draping Solutions</h3>
             </div>
           </div>
         </div>
@@ -166,45 +166,31 @@
                 <i class="icon-doctor"></i>
               </div>
               <div class="text__content">
-                <p class="heading__desc font-weight-bold color-secondary mb-30">Our goal is to deliver quality of care
-                  in a courteous, respectful, and
-                  compassionate manner. We hope you will allow us to care for you and strive to be the first and best
-                  choice for healthcare.
+                <p class="heading__desc font-weight-bold color-secondary mb-30">At AlphaTec Surgical LLP, we are dedicated to
+                   supplying premium-quality surgical drapes, gowns, and medical textile solutions across Pakistan.
+                    Our products are designed to improve safety, efficiency, and reliability in modern healthcare environments.
                 </p>
                 <a href="doctors-timetable.html" class="btn btn__secondary btn__rounded mb-70">
-                  <span>Find A Doctor</span> <i class="icon-arrow-right"></i>
+                  <span>About Us</span> <i class="icon-arrow-right"></i>
                 </a>
               </div>
             </div>
-            <div class="video-banner-layout2 bg-overlay">
-              <img src="{{ asset('web-assets/images/about/2.jpg') }}" alt="about" class="w-100">
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-                <span class="video__btn-title color-white">Watch Our Video!</span>
-              </a>
-            </div><!-- /.video-banner -->
           </div>
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="about__text bg-white">
-              <p class="heading__desc mb-30">Our goal is to deliver quality of care in a courteous, respectful, and
-                compassionate
-                manner. We hope you will allow us to care for you and to be the first and best choice for healthcare.
+              <p class="heading__desc mb-30">
+                We work closely with healthcare professionals to provide customizable draping packs, gowns,
+                 and medical textiles tailored to their procedural needs. Whether you require standard products 
+                 or custom-developed solutions, our team ensures accuracy, reliability, and timely delivery.
               </p>
-              <p class="heading__desc mb-30">We will work with you to develop individualised care plans, including
-                management of
-                chronic diseases. We are committed to being the region’s premier healthcare network providing patient
-                centered care that inspires clinical and service excellence.</p>
+              <p class="heading__desc mb-30">
+                We are dedicated to becoming the region’s leading provider of surgical and medical supplies by 
+                offering customer-centric, high-quality, and internationally compliant products.</p>
               <ul class="list-items list-unstyled">
-                <li>We conduct a range of tests to help us work out why you're not feeling well and determine the
-                  right
-                  treatment for you.</li>
-                <li>Our expert doctors, nurses and allied health professionals manage patients with a broad range of
-                  medical issues.
+                <li>We supply high-grade sterile surgical drapes and packs for various procedures.</li>
+                <li>Our materials are lint-free, fluid-resistant, and hypoallergenic—ideal for maintaining OT sterility.
                 </li>
-                <li>We offer a wide range of care and support to our patients, from diagnosis to treatment and
-                  rehabilitation.
+                <li>We offer technical guidance and customization, ensuring each hospital receives products that meet their exact protocols.
                 </li>
               </ul>
             </div>
@@ -219,8 +205,8 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-60">
-                <h2 class="heading__subtitle">The Best Medical And General Practice Care!</h2>
-                <h3 class="heading__title">Providing Medical Care For The Sickest In Our Community.</h3>
+                <h2 class="heading__subtitle">Premium Surgical Draping & Medical Supply Solutions</h2>
+                <h3 class="heading__title">Delivering Reliable, Sterile, and High-Quality Products for Modern Healthcare Facilities.</h3>
             </div>
             </div>
         </div>
@@ -235,15 +221,15 @@
                             <i class="icon-head"></i>
                         </div>
                         <div class="service__content">
-                            <h4 class="service__title">Neurology Clinic</h4>
-                            <p class="service__desc">Some neurologists receive subspecialty training focusing on a particular area
-                                of
-                                the fields, these training programs are called fellowships, and are one to two years.
+                            <h4 class="service__title">Surgical Drapes</h4>
+                            <p class="service__desc">Our surgical drapes are designed to provide maximum protection, fluid resistance, and secure coverage 
+                              during medical procedures. Carefully crafted from high-grade materials, they ensure a sterile and safe operating environment.
                             </p>
                             <ul class="list-items list-items-layout1 list-unstyled">
-                                <li>Neurocritical Care</li>
-                                <li>Neuro Oncology</li>
-                                <li>Geriatric Neurology</li>
+                                <li>General Surgery Drapes</li>
+                                <li>Adhesive Drapes</li>
+                                <li>Reinforced Drapes</li>
+                                <li>Anesthesia Drapes</li>
                             </ul>
                             <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
                                 <span>Read More</span>
@@ -258,15 +244,16 @@
                             <i class="icon-heart"></i>
                         </div>
                         <div class="service__content">
-                            <h4 class="service__title">Cardiology Clinic</h4>
-                            <p class="service__desc">All cardiologists study the disorders of the heart, but the study of adult
-                                and
-                                child heart disorders are trained to take care of small children and adult heart disease.
+                            <h4 class="service__title">Surgical Packs & Sets</h4>
+                            <p class="service__desc">
+                              We provide ready-to-use and customizable surgical packs 
+                              designed to improve workflow efficiency, reduce preparation time, and maintain procedural sterility.
                             </p>
                             <ul class="list-items list-items-layout1 list-unstyled">
-                                <li>Neurocritical Care</li>
-                                <li>Neuro Oncology</li>
-                                <li>Geriatric Neurology</li>
+                                <li>General Surgery Packs</li>
+                                <li>Minor Procedure Packs</li>
+                                <li>Custom Draping Sets</li>
+                                <li>Sterile Gown Kits</li>
                             </ul>
                             <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
                                 <span>Read More</span>
@@ -281,15 +268,14 @@
                             <i class="icon-microscope"></i>
                         </div>
                         <div class="service__content">
-                        <h4 class="service__title">Pathology Clinic</h4>
-                        <p class="service__desc">Pathology is the study of disease, it is the bridge between science and
-                            medicine.
-                            Also it underpins every aspect of patient care, from diagnostic testing and treatment.
+                        <h4 class="service__title">Surgical Gowns</h4>
+                        <p class="service__desc">Our surgical gowns and medical textiles offer superior protection,
+                           durability, and comfort for healthcare staff. Each item is produced using internationally compliant materials.
                         </p>
                         <ul class="list-items list-items-layout1 list-unstyled">
-                            <li>Surgical Pathology</li>
-                            <li>Histopathology</li>
-                            <li>Cytopathology </li>
+                            <li>Standard & Reinforced Gowns</li>
+                            <li>Ultra Protection (ULL Stitch) Gowns</li>
+                            <li>Isolation Gowns</li>
                         </ul>
                         <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
                             <span>Read More</span>
@@ -408,8 +394,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
             <div class="heading__layout2 mb-50">
-              <h3 class="heading__title color-white">Medcity Has Touched The Lives Of Patients & Providing Care for The
-                Sickest In Our Community.</h3>
+              <h3 class="heading__title color-white">AlphaTec Surgical LLP — Supporting Healthcare with Trusted Surgical Draping Solutions</h3>
             </div>
           </div><!-- /col-lg-5 -->
         </div>
@@ -420,11 +405,9 @@
             </div>
           </div><!-- /.col-lg-5 -->
           <div class="col-sm-9 col-md-9 col-lg-6">
-            <p class="heading__desc font-weight-bold color-white mb-30">Medcity has been present in Europe since 1990,
-              offering innovative
-              solutions, specializing in medical services for treatment of medical infrastructure. With over 100
-              professionals actively participates in numerous initiatives aimed at creating sustainable change for
-              patients!
+            <p class="heading__desc font-weight-bold color-white mb-30">Since 2023, AlphaTec Surgical LLP has been committed to 
+              delivering high-quality, sterile, and reliable surgical draping systems across Pakistan. Our mission is to enhance
+               surgical safety, improve procedural efficiency, and support hospitals with dependable medical supplies they can trust.
             </p>
             <a href="{{ route('home') }}" class="btn btn__white btn__link">
               <i class="icon-arrow-right icon-filled"></i>
@@ -443,7 +426,7 @@
                 <div class="feature__icon">
                   <i class="icon-heart"></i>
                 </div>
-                <h4 class="feature__title">Medical Advices & Check Ups</h4>
+                <h4 class="feature__title">GYNAECOLOGY</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
@@ -460,7 +443,7 @@
                 <div class="feature__icon">
                   <i class="icon-doctor"></i>
                 </div>
-                <h4 class="feature__title">Trusted Medical Treatment </h4>
+                <h4 class="feature__title">GENERAL SURGERY</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
@@ -477,7 +460,7 @@
                 <div class="feature__icon">
                   <i class="icon-ambulance"></i>
                 </div>
-                <h4 class="feature__title">Emergency Help Available 24/7</h4>
+                <h4 class="feature__title">CARDIOVASCULAR</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
@@ -494,14 +477,18 @@
                 <div class="feature__icon">
                   <i class="icon-drugs"></i>
                 </div>
-                <h4 class="feature__title">Medical Research Professionals </h4>
+                <h4 class="feature__title">ORTHOPEDIC</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
           </div>
-          
+
+          </div>
+
+          <div class="row">
+
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
@@ -511,7 +498,7 @@
                 <div class="feature__icon">
                   <i class="icon-first-aid-kit"></i>
                 </div>
-                <h4 class="feature__title">Only Qualified Doctors</h4>
+                <h4 class="feature__title">UROLOGY</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
@@ -528,7 +515,7 @@
                 <div class="feature__icon">
                   <i class="icon-hospital"></i>
                 </div>
-                <h4 class="feature__title">Cutting Edge Facility</h4>
+                <h4 class="feature__title">NEUROLOGY</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
@@ -545,7 +532,7 @@
                 <div class="feature__icon">
                   <i class="icon-expenses"></i>
                 </div>
-                <h4 class="feature__title">Affordable Prices For All Patients</h4>
+                <h4 class="feature__title">OPHTHALMOLOGY</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
@@ -562,18 +549,18 @@
                 <div class="feature__icon">
                   <i class="icon-bandage"></i>
                 </div>
-                <h4 class="feature__title">Quality Care For Every Patient</h4>
+                <h4 class="feature__title">SURGICAL GOWNS</h4>
               </div>
               <a href="{{ route('home') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
           </div>
+
         </div>
         <div class="row">
           <div class="col-md-12 col-lg-6 offset-lg-3 text-center">
-            <p class="font-weight-bold color-gray mb-0">We hope you will allow us to care for you and strive to be the
-              first and best choice for healthcare.
+            <p class="font-weight-bold color-gray mb-0">Your Trusted Partner in Surgical Draping & Medical Supplies
               <a href="{{ route('home') }}" class="color-secondary">
                 <span>Contact Us For More Information</span> <i class="icon-arrow-right"></i>
               </a>
@@ -581,299 +568,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="team-layout2 pb-80">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading text-center mb-40">
-              <h3 class="heading__title">Meet Our Doctors</h3>
-              <p class="heading__desc">Our administration and support staff all have exceptional people skills and
-                trained to assist you with all medical enquiries.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="slick-carousel"
-              data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              
-              <div class="member">
-                <div class="member__img">
-                  <img src="{{ asset('web-assets/images/team/1.jpg') }}" alt="member img">
-                </div>
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
-                  <p class="member__job">Cardiology Specialist</p>
-                  <p class="member__desc">Muldoone obtained his undergraduate degree in Biomedical Engineering at Tulane
-                    University prior to attending St George's University School of Medicine</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                    <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="member">
-                <div class="member__img">
-                  <img src="{{ asset('web-assets/images/team/2.jpg') }}" alt="member img">
-                </div>
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Dermatologists</a></h5>
-                  <p class="member__job">Cardiology Specialist</p>
-                  <p class="member__desc">Brian specializes in treating skin, hair, nail, and mucous membrane. He also
-                    address cosmetic issues, helping to revitalize the appearance of the skin</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                    <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="member">
-                <div class="member__img">
-                  <img src="{{ asset('web-assets/images/team/3.jpg') }}" alt="member img">
-                </div>
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Maria Andaloro</a></h5>
-                  <p class="member__job">Pediatrician</p>
-                  <p class="member__desc">Andaloro graduated from medical school and completed 3 years residency program
-                    in pediatrics. She passed rigorous exams by the American Board of Pediatrics.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                    <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="member">
-                <div class="member__img">
-                  <img src="{{ asset('web-assets/images/team/4.jpg') }}" alt="member img">
-                </div>
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Dupree Black</a></h5>
-                  <p class="member__job">Urologist</p>
-                  <p class="member__desc">Black diagnose and treat diseases of the urinary tract in both men and women.
-                    He
-                    also diagnose and treat anything involving the reproductive tract in men.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                    <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="member">
-                <div class="member__img">
-                  <img src="{{ asset('web-assets/images/team/5.jpg') }}" alt="member img">
-                </div>
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Markus skar</a></h5>
-                  <p class="member__job">Laboratory</p>
-                  <p class="member__desc">Skar play a very important role in your health care. People working in the
-                    clinical laboratory are responsible for conducting tests that provide crucial information.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                    <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="member">
-                <div class="member__img">
-                  <img src="{{ asset('web-assets/images/team/6.jpg') }}" alt="member img">
-                </div>
-                <div class="member__info">
-                  <h5 class="member__name"><a href="doctors-single-doctor1.html">Kiano Barker</a></h5>
-                  <p class="member__job">Pathologist </p>
-                  <p class="member__desc">Barker help care for patients every day by providing their doctors with the
-                    information needed to ensure appropriate care. He also valuable resources for other physicians.</p>
-                  <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                    <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                    <ul class="social-icons list-unstyled mb-0">
-                      <li><a href="{{ route('home') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="{{ route('home') }}" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
-      <div class="bg-img"><img src="{{ asset('web-assets/images/banners/1.jpg') }}" alt="background"></div>
-      <div class="container">
-        <div class="row heading-layout2">
-          <div class="col-12">
-            <h2 class="heading__subtitle color-primary">Caring For The Health Of You And Your Family.</h2>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
-            <h3 class="heading__title color-white">We Provide All Aspects Of Medical Practice For Your Whole Family!
-            </h3>
-          </div><!-- /.col-xl-5 -->
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
-            <p class="heading__desc font-weight-bold color-gray mb-40">We will work with you to develop individualised
-              care
-              plans, including
-              management of chronic diseases. If we cannot assist, we can provide referrals or advice about the type of
-              practitioner you require. We treat all enquiries sensitively and in the strictest confidence.
-            </p>
-            <ul class="list-items list-items-layout2 list-items-light list-horizontal list-unstyled">
-              <li>Fractures and dislocations</li>
-              <li>Health Assessments</li>
-              <li>Desensitisation injections</li>
-              <li>High Quality Care</li>
-              <li>Desensitisation injections</li>
-            </ul>
-          </div><!-- /.col-xl-6 -->
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="carousel-container mt-90">
-              <div class="slick-carousel"
-                data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "infinite":false, "arrows": false, "dots": false, "responsive": [{"breakpoint": 1200, "settings": {"slidesToShow": 3}}, {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-                <!-- process item #1 -->
-                <div class="process-item">
-                  <span class="process__number">01</span>
-                  <div class="process__icon">
-                    <i class="icon-health-report"></i>
-                  </div><!-- /.process__icon -->
-                  <h4 class="process__title">Fill In Our Medical Application</h4>
-                  <p class="process__desc">Medcity offers low-cost health coverage for adults with limited income, you
-                    can
-                    enroll.</p>
-                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
-                    <span>Doctors’ Timetable</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                
-                <div class="process-item">
-                  <span class="process__number">02</span>
-                  <div class="process__icon">
-                    <i class="icon-dna"></i>
-                  </div><!-- /.process__icon -->
-                  <h4 class="process__title">Review Your Family Medical History</h4>
-                  <p class="process__desc">Regular health exams can help find all the problems, also can find it early
-                    chances.</p>
-                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
-                    <span>Start A Check Up</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                
-                <div class="process-item">
-                  <span class="process__number">03</span>
-                  <div class="process__icon">
-                    <i class="icon-medicine"></i>
-                  </div><!-- /.process__icon -->
-                  <h4 class="process__title">Choose Between Our Care Programs</h4>
-                  <p class="process__desc">We have protocols to protect our patients while continuing to provide
-                    necessary
-                    care.</p>
-                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
-                    <span>Explore Programs</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                
-                <div class="process-item">
-                  <span class="process__number">04</span>
-                  <div class="process__icon">
-                    <i class="icon-stethoscope"></i>
-                  </div><!-- /.process__icon -->
-                  <h4 class="process__title">Introduce You To Highly Qualified Doctors</h4>
-                  <p class="process__desc">Our administration and support staff have exceptional skills and trained to
-                    assist you. </p>
-                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
-                    <span>Meet Our Doctors</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                
-                <div class="process-item">
-                  <span class="process__number">05</span>
-                  <div class="process__icon">
-                    <i class="icon-head"></i>
-                  </div><!-- /.process__icon -->
-                  <h4 class="process__title">Your custom Next process</h4>
-                  <p class="process__desc">Our administration and support staff have exceptional skills to assist you.
-                  </p>
-                  <a href="{{ route('home') }}" class="btn btn__secondary btn__link">
-                    <span>Meet Our Doctors</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="cta bg-light-blue">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-2 col-lg-2">
-              <img src="{{ asset('web-assets/images/icons/alert2.png') }}" class="cta__img" alt="alert">
-            </div><!-- /.col-lg-2 -->
-            <div class="col-sm-12 col-md-7 col-lg-7">
-              <h4 class="cta__title">True Healthcare For Your Family!</h4>
-              <p class="cta__desc">Serve the community by improving the quality of life through better health. We have
-                put protocols to protect our patients and staff while continuing to provide medically necessary care.
-              </p>
-            </div><!-- /.col-lg-7 -->
-            <div class="col-sm-12 col-md-12 col-lg-3">
-              <a href="appointment.html" class="btn btn__primary btn__secondary-style2 btn__rounded">
-                <span>Healthcare Programs</span>
-                <i class="icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div><!-- /.cta -->
     </section>
 
     <section class="testimonials-layout2 pt-130 pb-40">
@@ -947,36 +641,6 @@
       </div>
     </section>
 
-    <section class="gallery pt-0 pb-90">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="slick-carousel"
-              data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <a class="popup-gallery-item" href="assets/images/gallery/1.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/1.jpg') }}" alt="gallery img">
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/2.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/2.jpg') }}" alt="gallery img">
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/3.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/3.jpg') }}" alt="gallery img">
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/4.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/4.jpg') }}" alt="gallery img">
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/5.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/5.jpg') }}" alt="gallery img">
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/6.jpg') }}" alt="gallery img">
-              </a>
-            </div><!-- /.gallery-images-wrapper -->
-          </div><!-- /.col-xl-5 -->
-        </div>
-      </div>
-    </section>
-
     <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
       <div class="bg-img"><img src="{{ asset('web-assets/images/banners/3.jpg') }}" alt="banner"></div>
       <div class="container">
@@ -986,9 +650,9 @@
               <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
                 <div class="row">
                   <div class="col-sm-12">
-                    <h4 class="contact-panel__title">Book An Appointment</h4>
-                    <p class="contact-panel__desc mb-30">Please feel welcome to contact our friendly reception staff
-                      with any general or medical enquiry. Our doctors will receive or return any urgent calls.
+                    <h4 class="contact-panel__title">Need Assistance? We're Here to Help.</h4>
+                    <p class="contact-panel__desc mb-30">Whether you need support selecting the right drape, customizing a 
+                      surgical pack, or placing a bulk order, our team is ready to assist you with professional guidance and fast response times.
                     </p>
                   </div>
                   <div class="col-sm-6 col-md-6 col-lg-6">
@@ -1046,7 +710,7 @@
                   </div><!-- /.col-lg-4 -->
                   <div class="col-12">
                     <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
-                      <span>Book Appointment</span> <i class="icon-arrow-right"></i>
+                      <span>Submit</span> <i class="icon-arrow-right"></i>
                     </button>
                     <div class="contact-result"></div>
                   </div><!-- /.col-lg-12 -->
@@ -1056,9 +720,9 @@
           </div><!-- /.col-lg-7 -->
           <div class="col-sm-12 col-md-12 col-lg-5">
             <div class="heading heading-light mb-30">
-              <h3 class="heading__title mb-30">Helping Patients From Around the Globe!!</h3>
-              <p class="heading__desc">Our staff strives to make each interaction with patients clear, concise, and
-                inviting. Support the important work of Medicsh Hospital by making a much-needed donation today.
+              <h3 class="heading__title mb-30">High-Quality Surgical Solutions for Every Procedure</h3>
+              <p class="heading__desc">Our offerings help healthcare professionals maintain a sterile environment 
+                during surgeries while improving efficiency and ensuring patient safety.
               </p>
             </div>
             <div class="d-flex align-items-center">
@@ -1073,142 +737,42 @@
               </a>
             </div>
             <div class="text__block">
-              <p class="text__block-desc color-white font-weight-bold">We provide a comprehensive range of plans for
-                families and individuals at every stage of life, with annual limits ranging from £1.5m to unlimited.</p>
-              <div class="sinature color-white">
-                <span class="font-weight-bold">Martin Qube</span><span>, Medcity Manager</span>
-              </div>
+              <p class="text__block-desc color-white font-weight-bold">Book an Appointment / Inquiry Form (Updated Text)
+                Request a Consultation or Product Inquiry
+                Please feel welcome to reach out to our team for product details, quotations,
+                bulk orders, or custom pack development. Our representatives will respond promptly.</p>
             </div><!-- /.text__block -->
-            <div class="slick-carousel clients-light mt-20"
-              data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/1.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/1.png') }}" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/2.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/2.png') }}" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/3.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/3.png') }}" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/4.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/4.png') }}" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/5.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/5.png') }}" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/6.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/6.png') }}" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="{{ asset('web-assets/images/clients/7.png') }}" alt="client">
-                <img src="{{ asset('web-assets/images/clients/7.png') }}" alt="client">
-              </div><!-- /.client -->
-            </div>
           </div><!-- /.col-lg-5 -->
         </div>
       </div>
     </section>
 
-    <section class="blog-grid pb-50">
+    <section class="gallery pt-90 pb-90">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading text-center mb-40">
-              <h2 class="heading__subtitle">Resource Library</h2>
-              <h3 class="heading__title">Recent Articles</h3>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Post Item #1 -->
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="{{ asset('web-assets/images/blog/grid/1.jpg') }}" alt="post image" loading="lazy">
-                </a>
-              </div><!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat">
-                  <a href="{{ route('home') }}">Mental Health</a>
-                </div><!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">Jan 30, 2022</span>
-                  <a class="post__meta-author" href="{{ route('home') }}">Martin King</a>
-                </div>
-                <h4 class="post__title"><a href="{{ route('home') }}">6 Tips to Protect Your Mental Health When You’re Sick</a></h4>
-
-                <p class="post__desc">It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a
-                  condition that’s certainly true if you test positive for COVID-19, or are presumed to be positive...
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.post__body -->
-            </div><!-- /.post-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Post Item #2 -->
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="post image" loading="lazy">
-                </a>
-              </div><!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat">
-                  <a href="{{ route('home') }}">Infectious</a><a href="{{ route('home') }}">Tips</a>
-                </div><!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">Jan 30, 2022</span>
-                  <a class="post__meta-author" href="{{ route('home') }}">John Ezak</a>
-                </div>
-                <h4 class="post__title"><a href="{{ route('home') }}">Unsure About Wearing a Face Mask? Here’s How and Why</a></h4>
-                <p class="post__desc">That means that you should still be following any shelter-in-place orders in your
-                  community. But when you’re venturing out to the grocery store, pharmacy or hospital..
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.post__body -->
-            </div><!-- /.post-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Post Item #3 -->
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="{{ asset('web-assets/images/blog/grid/3.jpg') }}" alt="post image" loading="lazy">
-                </a>
-              </div><!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat">
-                  <a href="{{ route('home') }}">Life Style</a><a href="{{ route('home') }}">Nutrition</a>
-                </div><!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">Jan 28, 2022</span>
-                  <a class="post__meta-author" href="{{ route('home') }}">Saul Wade</a>
-                </div>
-                <h4 class="post__title"><a href="{{ route('home') }}">Tips for Eating Healthy When You’re Working From Home </a></h4>
-
-                <p class="post__desc">It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a
-                  condition that’s certainly true if you test positive for COVID-19, or are presumed to be positive...
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.post__body -->
-            </div><!-- /.post-item -->
-          </div><!-- /.col-lg-4 -->
+          <div class="col-12">
+            <div class="slick-carousel"
+              data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <a class="popup-gallery-item" href="assets/images/gallery/1.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/1.jpg') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="assets/images/gallery/2.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/2.jpg') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="assets/images/gallery/3.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/3.jpg') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="assets/images/gallery/4.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/4.jpg') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="assets/images/gallery/5.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/5.jpg') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg') }}">
+                <img src="{{ asset('web-assets/images/gallery/6.jpg') }}" alt="gallery img">
+              </a>
+            </div><!-- /.gallery-images-wrapper -->
+          </div><!-- /.col-xl-5 -->
         </div>
       </div>
     </section>
