@@ -2,7 +2,6 @@
   <div class="footer-primary">
     <div class="container">
       <div class="row">
-        <!-- About AlphaTec Surgical -->
         <div class="col-sm-12 col-md-12 col-lg-3">
           <div class="footer-widget-about">
             <img src="web-assets/images/logo/logo0.png" alt="AlphaTec Surgical LLP Logo" class="mb-30">
@@ -15,8 +14,6 @@
             </a>
           </div>
         </div>
-
-        <!-- Product / Departments -->
         <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
           <div class="footer-widget-nav">
             <h6 class="footer-widget__title">Products</h6>
@@ -34,8 +31,6 @@
             </nav>
           </div>
         </div>
-
-        <!-- Useful Links -->
         <div class="col-sm-6 col-md-6 col-lg-2">
           <div class="footer-widget-nav">
             <h6 class="footer-widget__title">Links</h6>
@@ -50,8 +45,6 @@
             </nav>
           </div>
         </div>
-
-        <!-- Contact Info -->
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="footer-widget-contact">
             <h6 class="footer-widget__title color-heading">Quick Contacts</h6>
@@ -90,8 +83,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Footer Bottom -->
   <div class="footer-secondary">
     <div class="container">
       <div class="row align-items-center">

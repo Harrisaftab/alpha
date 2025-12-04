@@ -7,11 +7,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="pagetitle__heading">Health Essentials</h1>
+            <h1 class="pagetitle__heading">Our Products</h1>
             <nav>
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                <li class="breadcrumb-item active" aria-current="page">Products</li>
               </ol>
             </nav>
           </div><!-- /.col-12 -->
@@ -27,7 +27,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Gynaecology & Obstetrics Surgical Packs" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/1.png') }}" alt="Gynaecology & Obstetrics Surgical Packs" loading="lazy">
                     </a>
                     </div>
                     <div class="post__body">
@@ -61,7 +61,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="General Surgery Packs" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.png') }}" alt="General Surgery Packs" loading="lazy">
                     </a>
                     </div>
 
@@ -96,7 +96,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Cardiovascular Surgical Packs" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/5.png') }}" alt="Cardiovascular Surgical Packs" loading="lazy">
                     </a>
                     </div>
 
@@ -131,7 +131,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Orthopedic Surgical Packs" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/4.png') }}" alt="Orthopedic Surgical Packs" loading="lazy">
                     </a>
                     </div>
 
@@ -167,7 +167,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Urology Surgical Packs" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/5.png') }}" alt="Urology Surgical Packs" loading="lazy">
                     </a>
                     </div>
 
@@ -202,7 +202,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Neurology Surgical Packs" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/6.png') }}" alt="Neurology Surgical Packs" loading="lazy">
                     </a>
                     </div>
 
@@ -236,7 +236,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="EAZYSET Surgical Gowns" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/8.png') }}" alt="Surgical Gowns" loading="lazy">
                     </a>
                     </div>
 
@@ -268,7 +268,7 @@
                 <div class="post-item">
                     <div class="post__img">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="EAZYSET Ophthalmic Pack" loading="lazy">
+                        <img src="{{ asset('web-assets/images/blog/grid/7.png') }}" alt="Ophthalmic Pack" loading="lazy">
                     </a>
                     </div>
 
