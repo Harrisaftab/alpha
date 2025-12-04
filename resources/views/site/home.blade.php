@@ -657,26 +657,6 @@
                   </div>
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <i class="icon-widget form-group-icon"></i>
-                      <select class="form-control">
-                        <option value="0">Choose Clinic</option>
-                        <option value="1">Pathology Clinic</option>
-                        <option value="2">Pathology Clinic</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-user form-group-icon"></i>
-                      <select class="form-control">
-                        <option value="0">Choose Doctor</option>
-                        <option value="1">Ahmed Abdallah</option>
-                        <option value="2">Mahmoud Begha</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
                       <i class="icon-news form-group-icon"></i>
                       <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
                         required>
