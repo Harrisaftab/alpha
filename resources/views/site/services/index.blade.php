@@ -2,135 +2,304 @@
 @section('title', 'Services')
 @section('content')
 
-    <!--========== breadcrumb Start ==============-->
-    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('web-assets/images/banner/cta-bg.webp') }}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title text-center">Service Page</h1>
-                        <div class="breadcrumb-link">
-                            <span>
-                                <a href="{{ route('home') }}">
-                                    <span>Home</span>
-                                </a>
-                            </span>
-                            >
-                            <span>
-                                <span> Service</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="page-title page-title-layout5 bg-overlay">
+      <div class="bg-img"><img src="{{ asset('web-assets/images/page-titles/8.jpg') }}" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="pagetitle__heading">Health Essentials</h1>
+            <nav>
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+              </ol>
+            </nav>
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+      </div>
     </section>
-    <!--========== breadcrumb End ==============-->
 
-    <!--========== Service Section Start ==============-->
-    <section class="tj-service-section-three">
-        <div class="container">
-            <div class="row">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> What We Do</span>
-                    <h2 class="title">Vehicle & Freight Transportation Services</h2>
-                </div>
-            </div>
-            <div class="row">
-                @foreach ($services as $row)
-                    <div class="col-lg-6 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="service-item-two d-flex justify-content-between">
-                            <div class="service-image">
-                                <img src="{{ asset($row->image_one) }}" alt="Image" />
-                            </div>
-                            <div class="service-text">
-                                <div class="services-icon">
-                                    <i class="flaticon-delivery-van"></i>
-                                </div>
-                                <h4 class="service-title"><a
-                                        href="{{ route('services.show.detail', $row->slug) }}">{{ $row->title }}</a></h4>
-                                <p class="des">
-                                    {{ \Illuminate\Support\Str::words(strip_tags($row->description_one), 10, '...') }}
-                                </p>
-                                <div class="tj-theme-button">
-                                    <a class="tj-transparent-btn-two"
-                                        href="{{ route('services.show.detail', $row->slug) }}">Read More <i
-                                            class="flaticon-right-1"></i></a>
-                                </div>
-                            </div>
-                            {{-- <div class="service-content">
-                                <div class="service-icon">
-                                    <i class="flaticon-air-freight"></i>
-                                </div>
-                                <h4>
-                                    <a class="title" href="{{ route('services.show.detail', $row->slug) }}">
-                                        {{ $row->title }}
-                                    </a>
-                                </h4>
-                                <p>{{ \Illuminate\Support\Str::words(strip_tags($row->description_one), 10, '...') }}</p>
-                            </div> --}}
-                        </div>
+    <section class="blog-grid">
+      <div class="container">
+        <div class="row">
+          
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Gynaecology & Obstetrics Surgical Packs" loading="lazy">
+                    </a>
                     </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-    <!--========== Service Section End ==============-->
+                    <div class="post__body">
+                        <div class="post__meta-cat">
+                            <a href="#">Gynaecology & Obstetrics</a>
+                        </div>
 
-    <!--=========== Feature Section Start =========-->
-    <section class="tj-choose-us-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5" data-sal="slide-left" data-sal-duration="800">
-                    <div class="choose-us-content-1">
-                        <div class="tj-section-heading">
-                            <span class="sub-title active-shape2"> Why Choose Us</span>
-                            <h2 class="title">We are the Future of Auto Transport</h2>
-                            <p class="desc">
-                                Safe & Secure Shipping Your Shipment is handled with the utmost care from
-                                pick-up to delivery.
-                            </p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4 col-6">
-                                <div class="tj-icon-box3 text-center">
-                                    <i class="flaticon flaticon-courier"></i>
-                                    <h6 class="title">Optimized Cost</h6>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-6">
-                                <div class="tj-icon-box3 text-center">
-                                    <i class="flaticon flaticon-cargo"></i>
-                                    <h6 class="title">Delivery on Time</h6>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-6">
-                                <div class="tj-icon-box3 text-center">
-                                    <i class="flaticon flaticon-agreement"></i>
-                                    <h6 class="title">Safety & Reliability</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7" data-sal="slide-right" data-sal-duration="800">
-                    <div class="tj-input-form trq-1" data-bg-image="web-assets/images/banner/form-shape.png">
-                        <div id="make-options" class="d-none">
-                            @foreach ($makes as $make)
-                                <option value="{{ $make }}">{{ $make }}</option>
-                            @endforeach
-                        </div>
-                        @include('site.partials.multiform')
+                        <h4 class="post__title">
+                            <a href="#">C-Section Pack</a><br>
+                            <a href="#">C-Section Drape Sheet</a><br>
+                            <a href="#">Birth Pack</a><br>
+                            <a href="#">D & C Pack</a>
+                        </h4>
+
+                        <p class="post__desc">
+                            Our Gynaecology & Obstetrics range includes fully sterile, ready-to-use surgical packs designed 
+                            for maternal care procedures. Each pack ensures superior fluid absorption, exceptional barrier 
+                            protection, and enhanced comfort — enabling safer, faster, and more efficient surgical workflows 
+                            in the operating room.
+                        </p>
+
+                        <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                            <span>View Details</span>
+                            <i class="icon-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--=========== Feature Section End =========-->
 
-    <!--=========== Testimonial Section Start =========-->
-    <section class="tj-testimonial-section tj-testimonial-page">
-        @include('site.partials.testimonial')
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="General Surgery Packs" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">General Surgery</a>
+                    </div>
+
+                    <h4 class="post__title">
+                        <a href="#">General Surgery Pack</a><br>
+                        <a href="#">Laparotomy Pack</a><br>
+                        <a href="#">Laparotomy Drape Sheet</a><br>
+                        <a href="#">Bariatric Pack</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        Designed to support a wide range of surgical procedures, our General Surgery line offers 
+                        exceptional fluid control, durable barrier protection, and seamless OR workflow efficiency. 
+                        Each pack is engineered to enhance patient safety, minimize infection risks, and improve 
+                        surgeon comfort during extended operations.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Cardiovascular Surgical Packs" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">Cardiovascular</a>
+                    </div>
+
+                    <h4 class="post__title">
+                        <a href="#">Cardiovascular Pack</a><br>
+                        <a href="#">Bypass Pack</a><br>
+                        <a href="#">Angiography Pack</a><br>
+                        <a href="#">Angioplasty Pack</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        Precision-engineered for high-risk cardiac procedures, our Cardiovascular series delivers 
+                        superior fluid management, reinforced barrier protection, and exceptional sterility. 
+                        Each pack is designed to support surgeons during complex interventions—ensuring safety, 
+                        efficiency, and uncompromised performance inside the operating room.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Orthopedic Surgical Packs" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">Orthopedic</a>
+                    </div>
+
+                    <h4 class="post__title">
+                        <a href="#">Basic Orthopedic Pack</a><br>
+                        <a href="#">Hip Pack</a><br>
+                        <a href="#">Spinal Pack</a><br>
+                        <a href="#">Arthroscopy Pack</a><br>
+                        <a href="#">Arthroplasty Pack</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        Designed for precision-driven orthopedic procedures, our orthopedic range offers 
+                        advanced barrier protection, efficient fluid control, and ergonomic setup for seamless 
+                        surgical workflow. Each pack is tailored to support joint replacement, spinal surgeries, 
+                        and minimally invasive procedures with reliability and superior sterility.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Urology Surgical Packs" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">Urology</a>
+                    </div>
+
+                    <h4 class="post__title">
+                        <a href="#">PCNL Pack</a><br>
+                        <a href="#">PCNL Drape Sheet</a><br>
+                        <a href="#">TURP Pack</a><br>
+                        <a href="#">TURP Drape Sheet</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        Tailored for precision and safety in urological procedures, our Urology series offers optimum 
+                        fluid management, superior barrier protection, and seamless workflow support. Whether for PCNL 
+                        or TURP surgeries, each pack is engineered to maintain sterility, enhance surgeon confidence, 
+                        and deliver a controlled, contamination-free operative environment.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="Neurology Surgical Packs" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">Neurology</a>
+                    </div>
+
+                    <h4 class="post__title">
+                        <a href="#">Craniotomy Pack</a><br>
+                        <a href="#">Laminectomy Pack</a><br>
+                        <a href="#">Vertebra Pack</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        Designed for high-precision neurosurgical procedures, our Neurology series ensures maximum 
+                        sterility, patient protection, and operative control. Each pack supports complex cranial and 
+                        spinal surgeries with superior fluid absorption, barrier performance, and ergonomic layouts that 
+                        enhance surgeon efficiency and reduce infection risks.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="EAZYSET Surgical Gowns" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">Surgical Gowns</a>
+                    </div>
+
+                    <h4 class="post__title">
+                        <a href="#">Isolation Gown – Level I</a><br>
+                        <a href="#">Standard Gown – Level II</a><br>
+                        <a href="#">Reinforced Surgical Gown – Level III</a><br>
+                        <a href="#">Fully Reinforced Surgical Gown – Level IV</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        Premium-quality medical gowns engineered for unmatched fluid resistance, durability, and comfort. Available in four protection levels, these gowns support a wide range of surgical and clinical procedures—ensuring safety, sterility, and reliable performance for healthcare teams.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('web-assets/images/blog/grid/2.jpg') }}" alt="EAZYSET Ophthalmic Pack" loading="lazy">
+                    </a>
+                    </div>
+
+                    <div class="post__body">
+                    <div class="post__meta-cat">
+                        <a href="#">Ophthalmology</a>
+                    </div>
+                    <div class="post__meta d-flex">
+                        <span class="post__meta-date">Jan 30, 2022</span>
+                        <a class="post__meta-author" href="#">Martin King</a>
+                    </div>
+                    <h4 class="post__title">
+                        <a href="#">Ophthalmic Pack</a>
+                    </h4>
+
+                    <p class="post__desc">
+                        A sterile, precision-designed surgical pack made specifically for ophthalmic procedures. 
+                        The Ophthalmic Pack ensures exceptional visibility, fluid management, and 
+                        barrier protection — enabling surgeons to perform delicate eye surgeries with accuracy, 
+                        safety, and complete confidence.
+                    </p>
+
+                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
+                        <span>View Details</span>
+                        <i class="icon-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
     </section>
-    <!--=========== Testimonial Section End =========-->
 @endsection
