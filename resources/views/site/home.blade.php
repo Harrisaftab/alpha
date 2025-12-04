@@ -705,7 +705,7 @@
                 during surgeries while improving efficiency and ensuring patient safety.
               </p>
             </div>
-            <div class="d-flex align-items-center">
+            {{-- <div class="d-flex align-items-center">
               <a href="contact-us.html" class="btn btn__white btn__rounded mr-30">
                 <i class="fas fa-heart"></i> <span>Make A Gift</span>
               </a>
@@ -715,7 +715,7 @@
                 </div>
                 <span class="video__btn-title color-white">Play Video</span>
               </a>
-            </div>
+            </div> --}}
             <div class="text__block">
               <p class="text__block-desc color-white font-weight-bold">Book an Appointment / Inquiry Form (Updated Text)
                 Request a Consultation or Product Inquiry
