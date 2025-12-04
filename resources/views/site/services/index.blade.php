@@ -276,10 +276,7 @@
                     <div class="post__meta-cat">
                         <a href="#">Ophthalmology</a>
                     </div>
-                    <div class="post__meta d-flex">
-                        <span class="post__meta-date">Jan 30, 2022</span>
-                        <a class="post__meta-author" href="#">Martin King</a>
-                    </div>
+
                     <h4 class="post__title">
                         <a href="#">Ophthalmic Pack</a>
                     </h4>

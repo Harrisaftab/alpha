@@ -31,7 +31,7 @@ Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/trems&conditions', [HomeController::class, 'trems'])->name('trems');
 
 // 🔹 Services
-Route::get('/all-services', [FrontendServiceController::class, 'index'])->name('all_services.index');
+Route::get('/products', [FrontendServiceController::class, 'index'])->name('all_services.index');
 Route::get('/service/{slug}', [FrontendServiceController::class, 'show'])->name('services.show.detail');
 Route::get('/services/car', [FrontendServiceController::class, 'carservice'])->name('services.car-shipping');
 Route::get('/services/motorcycle', [FrontendServiceController::class, 'bikeservice'])->name('services.motorcycle-shipping');
