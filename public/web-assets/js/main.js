@@ -121,6 +121,38 @@ $(function () {
         $(this).remove();
     });
 
+    /*==========   Set Background (Image or Video) to section   ==========*/
+    // $('.bg-media').each(function () {
+
+    //     // Check for image
+    //     var imgSrc = $(this).find('img').attr('src');
+
+    //     // Check for video
+    //     var videoSrc = $(this).find('video source').attr('src');
+
+    //     // Decide which media to use
+    //     var bgSrc = imgSrc ? imgSrc : videoSrc;
+
+    //     if (bgSrc) {
+    //         $(this).parent().css({
+    //             'background-image': 'url(' + bgSrc + ')',
+    //             'background-size': 'cover',
+    //             'background-position': 'center',
+    //         });
+
+    //         $(this).parent().addClass('bg-media');
+    //     }
+
+    //     // Keep auto size behavior
+    //     if ($(this).hasClass('background-size-auto')) {
+    //         $(this).parent().addClass('background-size-auto');
+    //     }
+
+    //     // Remove original element
+    //     $(this).remove();
+    // });
+
+
     /*==========   Add active class to accordions   ==========*/
     $('.accordion__header').on('click', function () {
         $(this).parent('.accordion-item').toggleClass('opened');

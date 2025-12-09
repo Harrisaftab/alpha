@@ -3,22 +3,77 @@
 @section('meta_description', 'AlphaTec Surgical LLP provides premium quality surgical drapes, disposable surgery packs, medical textiles, and sterile gowns across Pakistan. Trusted supplier for hospitals, clinics, and healthcare facilities.')
 @section('meta_keywords', 'surgical drapes, disposable surgery packs, sterile gowns, medical textiles, surgical products Pakistan, AlphaTec Surgical LLP, healthcare supplies, surgery sets, hospital drapes, medical supplies distributor')
 @section('content')
+<style>
+  .bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+  }
 
+  .bg-video iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 177.7778vh; /* 100vh * (16/9) */
+      height: 100vh;
+      transform: translate(-50%, -50%);
+      border: 0;
+      pointer-events: none;
+  }
+
+  /* For very wide screens (landscape desktops) */
+  @media (min-aspect-ratio: 16/9) {
+      .bg-video iframe {
+          width: 100vw;
+          height: 56.25vw; /* 100vw * (9/16) */
+      }
+  }
+
+  /* For tall screens (mobiles and tablets) */
+  @media (max-aspect-ratio: 16/9) {
+      .bg-video iframe {
+          width: 177.7778vh;
+          height: 100vh;
+      }
+  }
+</style>
     <section class="slider">
         <div class="slick-carousel m-slides-0"
             data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
             <div class="slide-item align-v-h">
-                <div class="bg-img"><img src="{{ asset('web-assets/images/sliders/1.png') }}" alt="slide img"></div>
+              {{-- <div class="bg-img"><img src="{{ asset('web-assets/images/sliders/2.png') }}" alt="slide img"></div> --}}
+                  <div class="bg-video">
+                      <iframe 
+                          src="https://player.vimeo.com/video/1144981229?autoplay=1&muted=1&loop=1&background=1" 
+                          frameborder="0"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowfullscreen>
+                      </iframe>
+                  </div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                         <div class="slide__content mx-5">
                             <h2 class="slide__title text-white">Premium Surgical Draping Solutions</h2>
-                            <p class="slide__desc text-white">Ensuring safety, sterility, and comfort in every procedure. AlphaTec Surgical LLP provides
-                                high-quality surgical drapes, gowns, and disposable surgery packs trusted by hospitals, clinics,
-                                and healthcare professionals across Pakistan.
+                            <p class="slide__desc text-white">AlphaTec Surgical LLP delivers safe, sterile, and comfortable solutions for every procedure, providing 
+                              high-quality surgical drapes, gowns, and disposable surgery packs trusted by hospitals, clinics, and 
+                              healthcare professionals across Pakistan.
                             </p>
-                            <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
+                              <div class="d-flex flex-wrap align-items-center">
+                                <a href="{{ route('contact') }}" class="btn btn__primary btn__rounded mr-30" tabindex="0">
+                                  <span>Contact Us</span>
+                                  <i class="icon-arrow-right"></i>
+                                </a>
+                                <a href="{{ route('all_services.index') }}" class="btn btn__white btn__rounded" tabindex="0">
+                                  <span>Our Products</span>
+                                  <i class="icon-arrow-right"></i>
+                                </a>
+                              </div>
+                            {{-- <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
                                 <li class="feature-item">
                                 <div class="feature__icon">
                                     <i class="icon-heart"></i>
@@ -43,14 +98,22 @@
                                 </div>
                                 <h2 class="feature__title text-white">Reinforced Gowns</h2>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="slide-item align-v-h">
-                <div class="bg-img"><img src="{{ asset('web-assets/images/sliders/1.png') }}" alt="slide img"></div>
+                {{-- <div class="bg-img"><img src="{{ asset('web-assets/images/sliders/1.png') }}" alt="slide img"></div> --}}
+                  <div class="bg-video">
+                      <iframe 
+                          src="https://player.vimeo.com/video/1144982205?autoplay=1&muted=1&loop=1&background=1" 
+                          frameborder="0"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowfullscreen>
+                      </iframe>
+                  </div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
@@ -60,7 +123,17 @@
                                     hygiene, and operational efficiency in every operating room. Your safety demands the best—so we
                                     deliver nothing less.
                                 </p>
-                                <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
+                                <div class="d-flex flex-wrap align-items-center">
+                                  <a href="{{ route('contact') }}" class="btn btn__primary btn__rounded mr-30" tabindex="0">
+                                    <span>Contact Us</span>
+                                    <i class="icon-arrow-right"></i>
+                                  </a>
+                                  <a href="{{ route('all_services.index') }}" class="btn btn__white btn__rounded" tabindex="0">
+                                    <span>Our Products</span>
+                                    <i class="icon-arrow-right"></i>
+                                  </a>
+                                </div>
+                                {{-- <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
                                 
                                     <li class="feature-item">
                                         <div class="feature__icon">
@@ -89,7 +162,7 @@
                                         </div>
                                         <h2 class="feature__title text-white">OR Solutions</h2>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </div>
                         </div>
                     </div>
@@ -409,10 +482,6 @@
               delivering high-quality, sterile, and reliable surgical draping systems across Pakistan. Our mission is to enhance
                surgical safety, improve procedural efficiency, and support hospitals with dependable medical supplies they can trust.
             </p>
-            <a href="{{ route('home') }}" class="btn btn__white btn__link">
-              <i class="icon-arrow-right icon-filled"></i>
-              <span>Our Core Values</span>
-            </a>
           </div>
         </div>
         <div class="row">
@@ -420,7 +489,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/1.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -437,7 +506,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/2.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/2.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -454,7 +523,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/3.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/3.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -471,7 +540,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/4.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/4.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -492,7 +561,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/5.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/5.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -509,7 +578,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/6.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -526,7 +595,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/7.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/7.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">
@@ -543,7 +612,7 @@
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="feature-item">
               <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/8.jpg') }}" alt="service" loading="lazy">
+                <img src="{{ asset('web-assets/images/services/8.png') }}" alt="service" loading="lazy">
               </div>
               <div class="feature__content">
                 <div class="feature__icon">

@@ -1,5 +1,5 @@
 @extends('layouts.guest')
-@section('title', 'Services')
+@section('title', 'Products')
 @section('content')
 
     <section class="page-title page-title-layout5 bg-overlay">
@@ -39,7 +39,7 @@
                             <a href="#">C-Section Pack</a><br>
                             <a href="#">C-Section Drape Sheet</a><br>
                             <a href="#">Birth Pack</a><br>
-                            <a href="#">D & C Pack</a>
+                            <a href="#">Delivery Pack</a>
                         </h4>
 
                         <p class="post__desc">
@@ -73,8 +73,7 @@
                     <h4 class="post__title">
                         <a href="#">General Surgery Pack</a><br>
                         <a href="#">Laparotomy Pack</a><br>
-                        <a href="#">Laparotomy Drape Sheet</a><br>
-                        <a href="#">Bariatric Pack</a>
+                        <a href="#">Laparotomy Drape Sheet</a>
                     </h4>
 
                     <p class="post__desc">
@@ -106,7 +105,6 @@
                     </div>
 
                     <h4 class="post__title">
-                        <a href="#">Cardiovascular Pack</a><br>
                         <a href="#">Bypass Pack</a><br>
                         <a href="#">Angiography Pack</a><br>
                         <a href="#">Angioplasty Pack</a>
@@ -143,7 +141,6 @@
                     <h4 class="post__title">
                         <a href="#">Basic Orthopedic Pack</a><br>
                         <a href="#">Hip Pack</a><br>
-                        <a href="#">Spinal Pack</a><br>
                         <a href="#">Arthroscopy Pack</a><br>
                         <a href="#">Arthroplasty Pack</a>
                     </h4>
@@ -213,8 +210,7 @@
 
                     <h4 class="post__title">
                         <a href="#">Craniotomy Pack</a><br>
-                        <a href="#">Laminectomy Pack</a><br>
-                        <a href="#">Vertebra Pack</a>
+                        <a href="#">Laminectomy Pack</a>
                     </h4>
 
                     <p class="post__desc">
