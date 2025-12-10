@@ -290,139 +290,145 @@
                     
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-head"></i>
-                            <i class="icon-head"></i>
+                            <i class="icon-head"></i><i class="icon-head"></i>
                         </div>
                         <div class="service__content">
                             <h4 class="service__title">Surgical Drapes</h4>
-                            <p class="service__desc">Our surgical drapes are designed to provide maximum protection, fluid resistance, and secure coverage 
-                              during medical procedures. Carefully crafted from high-grade materials, they ensure a sterile and safe operating environment.
+                            <p class="service__desc">
+                                Our high-performance surgical drapes are engineered from medical-grade materials 
+                                to deliver superior barrier protection, fluid resistance, and reliable coverage 
+                                across a wide range of procedures. Each drape ensures a sterile field and 
+                                enhanced infection control in the operating environment.
                             </p>
                             <ul class="list-items list-items-layout1 list-unstyled">
                                 <li>General Surgery Drapes</li>
-                                <li>Adhesive Drapes</li>
-                                <li>Reinforced Drapes</li>
-                                <li>Anesthesia Drapes</li>
+                                <li>Adhesive & Incise Drapes</li>
+                                <li>Reinforced Procedure Drapes</li>
+                                <li>Anesthesia & Utility Drapes</li>
                             </ul>
-                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                            <a href="#" class="btn btn__secondary btn__outlined btn__rounded">
                                 <span>Read More</span>
                                 <i class="icon-arrow-right"></i>
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-heart"></i>
-                            <i class="icon-heart"></i>
+                            <i class="icon-heart"></i><i class="icon-heart"></i>
                         </div>
                         <div class="service__content">
-                            <h4 class="service__title">Surgical Packs & Sets</h4>
+                            <h4 class="service__title">Surgical Packs & Procedure Sets</h4>
                             <p class="service__desc">
-                              We provide ready-to-use and customizable surgical packs 
-                              designed to improve workflow efficiency, reduce preparation time, and maintain procedural sterility.
+                                We manufacture sterile, ready-to-use surgical packs designed to reduce preparation 
+                                time, enhance workflow efficiency, and maintain strict aseptic standards. Each pack 
+                                is assembled using premium components tailored to procedural requirements.
                             </p>
                             <ul class="list-items list-items-layout1 list-unstyled">
                                 <li>General Surgery Packs</li>
-                                <li>Minor Procedure Packs</li>
+                                <li>Minor & Major Procedure Packs</li>
                                 <li>Custom Draping Sets</li>
-                                <li>Sterile Gown Kits</li>
+                                <li>Sterile Gown & Drape Kits</li>
                             </ul>
-                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                            <a href="#" class="btn btn__secondary btn__outlined btn__rounded">
                                 <span>Read More</span>
                                 <i class="icon-arrow-right"></i>
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-microscope"></i>
-                            <i class="icon-microscope"></i>
+                            <i class="icon-microscope"></i><i class="icon-microscope"></i>
                         </div>
                         <div class="service__content">
-                        <h4 class="service__title">Surgical Gowns</h4>
-                        <p class="service__desc">Our surgical gowns and medical textiles offer superior protection,
-                           durability, and comfort for healthcare staff. Each item is produced using internationally compliant materials.
-                        </p>
-                        <ul class="list-items list-items-layout1 list-unstyled">
-                            <li>Standard & Reinforced Gowns</li>
-                            <li>Ultra Protection (ULL Stitch) Gowns</li>
-                            <li>Isolation Gowns</li>
-                        </ul>
-                        <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                            <span>Read More</span>
-                            <i class="icon-arrow-right"></i>
-                        </a>
+                            <h4 class="service__title">Surgical Gowns</h4>
+                            <p class="service__desc">
+                                Our surgical gowns offer the ideal balance of protection, comfort, and durability. 
+                                Produced using internationally compliant materials, these gowns protect healthcare 
+                                professionals from fluid exposure while maintaining breathability and ease of movement.
+                            </p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Standard & Reinforced Gowns</li>
+                                <li>Advanced ULL-Stitched Protection Gowns</li>
+                                <li>Isolation & Procedure Gowns</li>
+                            </ul>
+                            <a href="#" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
-                    
+
                     <div class="service-item">
                         <div class="service__icon">
-                        <i class="icon-dropper"></i>
-                        <i class="icon-dropper"></i>
+                            <i class="icon-dropper"></i><i class="icon-dropper"></i>
                         </div>
                         <div class="service__content">
-                        <h4 class="service__title">Laboratory Analysis</h4>
-                        <p class="service__desc">Analyzing the radon or radon progeny concentrations with passive devices, or
-                            the
-                            act of calibrating radon or radon progeny measurement devices.
-                        </p>
-                        <ul class="list-items list-items-layout1 list-unstyled">
-                            <li>Newborn Care</li>
-                            <li>Umbilical Cord Appearance </li>
-                            <li>Repositioning Techniques</li>
-                        </ul>
-                        <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                            <span>Read More</span>
-                            <i class="icon-arrow-right"></i>
-                        </a>
+                            <h4 class="service__title">Laboratory Consumables</h4>
+                            <p class="service__desc">
+                                We supply high-quality laboratory consumables designed for accuracy, hygiene, and 
+                                efficient clinical workflow. All products meet international quality benchmarks 
+                                for diagnostic and analytical environments.
+                            </p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Sample Collection Materials</li>
+                                <li>Sterile Disposable Lab Items</li>
+                                <li>Fluid Handling Accessories</li>
+                            </ul>
+                            <a href="#" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
-                    
+
                     <div class="service-item">
                         <div class="service__icon">
-                        <i class="icon-heart3"></i>
-                        <i class="icon-heart3"></i>
+                            <i class="icon-heart3"></i><i class="icon-heart3"></i>
                         </div>
                         <div class="service__content">
-                        <h4 class="service__title">Pediatric Clinic</h4>
-                        <p class="service__desc">Pediatric providers see patients from birth into early adulthood to make sure
-                            children achieve stay healthy. Our care includes preventive health checkups.
-                        </p>
-                        <ul class="list-items list-items-layout1 list-unstyled">
-                            <li>Clinical laboratory</li>
-                            <li>Research Analyst</li>
-                            <li>Quality Assurance</li>
-                        </ul>
-                        <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                            <span>Read More</span>
-                            <i class="icon-arrow-right"></i>
-                        </a>
+                            <h4 class="service__title">Pediatric & General Care Disposables</h4>
+                            <p class="service__desc">
+                                Our pediatric and general-care disposable range ensures safe, hygienic, and 
+                                comfortable usage across healthcare environments. Designed for single-use 
+                                efficiency and optimal patient care.
+                            </p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Disposable Underpads</li>
+                                <li>Pediatric Absorbent Sheets</li>
+                                <li>General Ward Consumables</li>
+                            </ul>
+                            <a href="#" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
-                    
+
                     <div class="service-item">
                         <div class="service__icon">
-                        <i class="icon-heart2"></i>
-                        <i class="icon-heart2"></i>
+                            <i class="icon-heart2"></i><i class="icon-heart2"></i>
                         </div>
                         <div class="service__content">
-                        <h4 class="service__title">Cardiac Clinic</h4>
-                        <p class="service__desc">For people requiring additional follow up, the Cardiac Clinic provides rapid
-                            access to professionals specialized in diagnosing and treating heart disease.
-                        </p>
-                        <ul class="list-items list-items-layout1 list-unstyled">
-                            <li>Macular degeneration</li>
-                            <li>Diabetic retinopathy</li>
-                            <li>Excessive tearing</li>
-                        </ul>
-                        <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                            <span>Read More</span>
-                            <i class="icon-arrow-right"></i>
-                        </a>
+                            <h4 class="service__title">Medical Protection Supplies</h4>
+                            <p class="service__desc">
+                                We provide a complete range of personal and clinical protection supplies 
+                                designed to minimize contamination risk and support infection control 
+                                in medical environments.
+                            </p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Sterile Face Masks & Caps</li>
+                                <li>Medical Shoe Covers</li>
+                                <li>Protective Laminated Sheets</li>
+                            </ul>
+                            <a href="#" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -647,66 +653,59 @@
               <div class="heading-layout2">
                 <h3 class="heading__title">Inspiring Stories!</h3>
               </div>
-            </div><!-- /.col-lg-5 -->
+            </div>
             <div class="col-sm-12 col-md-12 col-lg-7">
               <div class="slider-with-navs">
-                <!-- Testimonial #1 -->
                 <div class="testimonial-item">
-                  <h3 class="testimonial__title">“Their doctors include highly qualified practitioners who come from a
-                    range of backgrounds and bring with them a diversity of skills and special interests. They also have
-                    registered nurses on staff who are available to triage any urgent matters, and the administration
-                    and support staff all have exceptional people skills”
+                  <h3 class="testimonial__title">“We have been using Alphatec’s drapes, gowns, and custom procedure packs for several months.
+                      The quality is exceptional and our surgeons prefer their reinforced gowns due to comfort and protection.
+                      Highly recommended for any medical facility.”
                   </h3>
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #2 -->
+                </div>
                 <div class="testimonial-item">
-                  <h3 class="testimonial__title">“Their doctors include highly qualified practitioners who come from a
-                    range of backgrounds and bring with them a diversity of skills and special interests. They also have
-                    registered nurses on staff who are available to triage any urgent matters, and the administration
-                    and support staff all have exceptional people skills”
+                  <h3 class="testimonial__title">“Alphatec Surgical LLP has consistently delivered high-quality surgical consumables.
+                      Their products are reliable, sterile, and perfectly packaged for our operation room needs.
+                      Delivery is always on time and the support team is extremely responsive.”
                   </h3>
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #3 -->
+                </div>
                 <div class="testimonial-item">
-                  <h3 class="testimonial__title">“Their doctors include highly qualified practitioners who come from a
-                    range of backgrounds and bring with them a diversity of skills and special interests. They also have
-                    registered nurses on staff who are available to triage any urgent matters, and the administration
-                    and support staff all have exceptional people skills”
+                  <h3 class="testimonial__title">“Their customized surgical packs have helped us reduce preparation time and improve workflow efficiency.
+                      The material quality, absorbency, and durability are far superior to what we used previously.”
                   </h3>
-                </div><!-- /. testimonial-item -->
-              </div><!-- /.slick-carousel -->
+                </div>
+              </div>
               <div class="slider-nav mb-60">
                 <div class="testimonial__meta">
                   <div class="testimonial__thmb">
                     <img src="{{ asset('web-assets/images/testimonials/thumbs/1.png') }}" alt="author thumb">
-                  </div><!-- /.testimonial-thumb -->
-                  <div>
-                    <h4 class="testimonial__meta-title">Sami Wade</h4>
-                    <p class="testimonial__meta-desc">7oroof Inc</p>
                   </div>
-                </div><!-- /.testimonial-meta -->
+                  <div>
+                    <h4 class="testimonial__meta-title">Dr. Ahsan</h4>
+                    <p class="testimonial__meta-desc">Senior Surgeon</p>
+                  </div>
+                </div>
                 <div class="testimonial__meta">
                   <div class="testimonial__thmb">
                     <img src="{{ asset('web-assets/images/testimonials/thumbs/2.png') }}" alt="author thumb">
-                  </div><!-- /.testimonial-thumb -->
-                  <div>
-                    <h4 class="testimonial__meta-title">Ahmed</h4>
-                    <p class="testimonial__meta-desc">Web Inc</p>
                   </div>
-                </div><!-- /.testimonial-meta -->
+                  <div>
+                    <h4 class="testimonial__meta-title">Nimra</h4>
+                    <p class="testimonial__meta-desc">Purchasing Manager</p>
+                  </div>
+                </div>
                 <div class="testimonial__meta">
                   <div class="testimonial__thmb">
                     <img src="{{ asset('web-assets/images/testimonials/thumbs/3.png') }}" alt="author thumb">
-                  </div><!-- /.testimonial-thumb -->
-                  <div>
-                    <h4 class="testimonial__meta-title">Sonia Blake</h4>
-                    <p class="testimonial__meta-desc">Web Inc</p>
                   </div>
-                </div><!-- /.testimonial-meta -->
-              </div><!-- /.slider-nav -->
-            </div><!-- /.col-lg-7 -->
+                  <div>
+                    <h4 class="testimonial__meta-title">Dr. Bilal</h4>
+                    <p class="testimonial__meta-desc">HOD of OT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div><!-- /.testimonials-wrapper -->
+        </div>
       </div>
     </section>
 
