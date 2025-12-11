@@ -831,23 +831,29 @@
           <div class="col-12">
             <div class="slick-carousel"
               data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/1.png') }}">
-                <img src="{{ asset('web-assets/images/services/1.png') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/9.png') }}">
+                <img src="{{ asset('web-assets/images/services/9.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/2.png') }}">
-                <img src="{{ asset('web-assets/images/services/2.png') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/8-.png') }}">
+                <img src="{{ asset('web-assets/images/services/8-.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/3.png') }}">
-                <img src="{{ asset('web-assets/images/services/3.png') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/10.png') }}">
+                <img src="{{ asset('web-assets/images/services/10.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/4.png') }}">
-                <img src="{{ asset('web-assets/images/services/4.png') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/11.png') }}">
+                <img src="{{ asset('web-assets/images/services/11.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/5.png') }}">
-                <img src="{{ asset('web-assets/images/services/5.png') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/12.png') }}">
+                <img src="{{ asset('web-assets/images/services/12.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/6.png') }}">
-                <img src="{{ asset('web-assets/images/services/6.png') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/13.png') }}">
+                <img src="{{ asset('web-assets/images/services/13.png') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/14.png') }}">
+                <img src="{{ asset('web-assets/images/services/14.png') }}" alt="gallery img">
+              </a>
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/15.png') }}">
+                <img src="{{ asset('web-assets/images/services/15.png') }}" alt="gallery img">
               </a>
             </div><!-- /.gallery-images-wrapper -->
           </div><!-- /.col-xl-5 -->
