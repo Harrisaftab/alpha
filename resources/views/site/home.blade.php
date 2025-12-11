@@ -459,7 +459,7 @@
                 </div>
               </div>
               <a href="appointment.html" class="btn btn__primary btn__rounded">
-                <span>Contact Us<</span> <i class="icon-arrow-right"></i>
+                <span>Contact Us</span> <i class="icon-arrow-right"></i>
               </a>
             </div>
           </div>
