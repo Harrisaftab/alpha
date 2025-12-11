@@ -1,22 +1,67 @@
 @extends('layouts.guest')
 @section('title', 'Products')
 @section('content')
+<style>
+  .bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+  }
 
+  .bg-video iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 177.7778vh; /* 100vh * (16/9) */
+      height: 100vh;
+      transform: translate(-50%, -50%);
+      border: 0;
+      pointer-events: none;
+  }
+
+  /* For very wide screens (landscape desktops) */
+  @media (min-aspect-ratio: 16/9) {
+      .bg-video iframe {
+          width: 100vw;
+          height: 56.25vw; /* 100vw * (9/16) */
+      }
+  }
+
+  /* For tall screens (mobiles and tablets) */
+  @media (max-aspect-ratio: 16/9) {
+      .bg-video iframe {
+          width: 177.7778vh;
+          height: 100vh;
+      }
+  }
+</style>
     <section class="page-title page-title-layout5 bg-overlay">
-      <div class="bg-img"><img src="{{ asset('web-assets/images/page-titles/8.jpg') }}" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="pagetitle__heading">Our Products</h1>
-            <nav>
-              <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Products</li>
-              </ol>
-            </nav>
-          </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-      </div>
+      {{-- <div class="bg-img"><img src="{{ asset('web-assets/images/page-titles/8.jpg') }}" alt="background"></div> --}}
+        <div class="bg-video">
+            <iframe 
+                src="https://player.vimeo.com/video/1144982205?autoplay=1&muted=1&loop=1&background=1" 
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-12">
+                <h1 class="pagetitle__heading text-white">Our Products</h1>
+                <nav>
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Products</li>
+                </ol>
+                </nav>
+            </div><!-- /.col-12 -->
+            </div><!-- /.row -->
+        </div>
     </section>
 
     <section class="blog-grid">
