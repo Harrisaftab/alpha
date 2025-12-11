@@ -183,7 +183,7 @@
                 <h2 class="contact__title">Customer Support</h2>
                 <p class="contact__desc">Have questions about our surgical drapes, gowns, or disposable packs? 
                   Our support team is available to assist with product inquiries, quotations, and order requirements.</p>
-                <a href="tel:+923700293715" class="phone__number">
+                <a href="tel:+923206995613" class="phone__number">
                   <i class="icon-phone"></i> <span>+92 370 0293715</span>
                 </a>
               </div>
@@ -441,9 +441,9 @@
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="note font-weight-bold">
               <i class="far fa-file-alt color-primary"></i>
-              <span>Delivering tomorrow’s health care for your family.</span>
+              <span>Providing reliable, quality products for your medical needs.</span>
               <a href="doctors-timetable.html" class="btn btn__link btn__secondary">
-                <span>View Doctors’ Timetable</span><i class="icon-arrow-right"></i>
+                <span>Explore Our Products</span><i class="icon-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -453,13 +453,13 @@
                 <div class="testimonials__rating-inner d-flex align-items-center">
                   <span class="total__rate">4.9</span>
                   <div>
-                    <span class="overall__rate">Zocdoc Overall Rating</span>
+                    <span class="overall__rate">Customer Satisfaction Rating</span>
                     <span>, based on 7541 reviews.</span>
                   </div>
                 </div>
               </div>
               <a href="appointment.html" class="btn btn__primary btn__rounded">
-                <span>Make Appointment</span> <i class="icon-arrow-right"></i>
+                <span>Contact Us<</span> <i class="icon-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -715,55 +715,85 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="contact-panel mb-50">
-              <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h4 class="contact-panel__title">Need Assistance? We're Here to Help.</h4>
-                    <p class="contact-panel__desc mb-30">Whether you need support selecting the right drape, customizing a 
-                      surgical pack, or placing a bulk order, our team is ready to assist you with professional guidance and fast response times.
-                    </p>
-                  </div>
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-news form-group-icon"></i>
-                      <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
-                        required>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-email form-group-icon"></i>
-                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                        name="contact-email" required>
-                    </div>
-                  </div>
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group">
-                      <i class="icon-phone form-group-icon"></i>
-                      <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                        name="contact-phone" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group form-group-date">
-                      <i class="icon-calendar form-group-icon"></i>
-                      <input type="date" class="form-control" id="contact-date" name="contact-date" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group form-group-date">
-                      <i class="icon-clock form-group-icon"></i>
-                      <input type="time" class="form-control" id="contact-time" name="contact-time" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-12">
-                    <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
-                      <span>Submit</span> <i class="icon-arrow-right"></i>
-                    </button>
-                    <div class="contact-result"></div>
-                  </div><!-- /.col-lg-12 -->
-                </div>
-              </form>
+<form class="contact-panel__form" id="contactForm" onsubmit="sendToWhatsApp(event)">
+  <div class="row">
+    <div class="col-sm-12">
+      <h4 class="contact-panel__title">Need Assistance? We're Here to Help.</h4>
+      <p class="contact-panel__desc mb-30">
+        Whether you need support selecting the right drape, customizing a 
+        surgical pack, or placing a bulk order, our team is ready to assist you.
+      </p>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="form-group">
+        <i class="icon-news form-group-icon"></i>
+        <input type="text" class="form-control" placeholder="Name" id="contact-name" required>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="form-group">
+        <i class="icon-email form-group-icon"></i>
+        <input type="email" class="form-control" placeholder="Email" id="contact-email" required>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="form-group">
+        <i class="icon-phone form-group-icon"></i>
+        <input type="text" class="form-control" placeholder="Phone" id="contact-phone" required>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="form-group form-group-date">
+        <i class="icon-calendar form-group-icon"></i>
+        <input type="date" class="form-control" id="contact-date" required>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="form-group form-group-date">
+        <i class="icon-clock form-group-icon"></i>
+        <input type="time" class="form-control" id="contact-time" required>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
+        <span>Submit</span> <i class="icon-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+</form>
+
+<script>
+  function sendToWhatsApp(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("contact-name").value;
+    let email = document.getElementById("contact-email").value;
+    let phone = document.getElementById("contact-phone").value;
+    let date = document.getElementById("contact-date").value;
+    let time = document.getElementById("contact-time").value;
+
+    let message =
+      "New Contact Request:%0A%0A" +
+      "Name: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Phone: " + phone + "%0A" +
+      "Preferred Date: " + date + "%0A" +
+      "Preferred Time: " + time;
+
+    let whatsappNumber = "923206995613"; // WITHOUT + sign
+
+    let url = "https://wa.me/" + whatsappNumber + "?text=" + message;
+
+    window.open(url, "_blank");
+  }
+</script>
+
             </div>
           </div><!-- /.col-lg-7 -->
           <div class="col-sm-12 col-md-12 col-lg-5">
@@ -801,23 +831,23 @@
           <div class="col-12">
             <div class="slick-carousel"
               data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <a class="popup-gallery-item" href="assets/images/gallery/1.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/1.jpg') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/1.png') }}">
+                <img src="{{ asset('web-assets/images/services/1.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/2.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/2.jpg') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/2.png') }}">
+                <img src="{{ asset('web-assets/images/services/2.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/3.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/3.jpg') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/3.png') }}">
+                <img src="{{ asset('web-assets/images/services/3.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/4.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/4.jpg') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/4.png') }}">
+                <img src="{{ asset('web-assets/images/services/4.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/5.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/5.jpg') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/5.png') }}">
+                <img src="{{ asset('web-assets/images/services/5.png') }}" alt="gallery img">
               </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg') }}">
-                <img src="{{ asset('web-assets/images/gallery/6.jpg') }}" alt="gallery img">
+              <a class="popup-gallery-item" href="{{ asset('web-assets/images/services/6.png') }}">
+                <img src="{{ asset('web-assets/images/services/6.png') }}" alt="gallery img">
               </a>
             </div><!-- /.gallery-images-wrapper -->
           </div><!-- /.col-xl-5 -->
