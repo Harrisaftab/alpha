@@ -184,7 +184,7 @@
                 <p class="contact__desc">Have questions about our surgical drapes, gowns, or disposable packs? 
                   Our support team is available to assist with product inquiries, quotations, and order requirements.</p>
                 <a href="tel:+923206995613" class="phone__number">
-                  <i class="icon-phone"></i> <span>+92 370 0293715</span>
+                  <i class="icon-phone"></i> <span>+92 320 6995613</span>
                 </a>
               </div>
             </div>
@@ -223,53 +223,222 @@
       </div>
     </section>
 
-    <section class="about-layout2 pb-0">
+    <section class="about-layout1 pb-0">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
+          <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="heading-layout2">
-              <h3 class="heading__title mb-60">Enhancing Surgical Safety<br>Through Reliable Draping Solutions</h3>
+              <h3 class="heading__title mb-40">Enhancing Healthcare Quality Through Advanced Surgical Solutions.</h3>
+            </div><!-- /heading -->
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="about__Text">
+              <p class="mb-30">Our mission is to provide reliable, innovative, and high-quality surgical products that 
+                empower healthcare professionals to deliver safer and more efficient patient care.
+              </p>
+              <p class="mb-30">From premium surgical drapes and sterile packs to protective gowns and custom solutions,
+                 we ensure every product meets strict international standards for performance, safety, and comfort.</p>
+              <div class="d-flex align-items-center mb-30">
+                <a href="doctors-grid.html" class="btn btn__primary btn__outlined btn__rounded mr-30">
+                   Explore Our Products</a>
+                <img src="web-assets/images/about/singnture.png" alt="singnture">
+              </div>
+            </div>
+          </div><!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="video-banner">
+              <img src="web-assets/images/about/1.jpg" alt="about">
+              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+                <div class="video__player">
+                  <i class="fa fa-play"></i>
+                </div>
+              </a>
+            </div><!-- /.video-banner -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section>
+
+    <section class="features-layout1 pt-130 pb-50 mt--90">
+      <div class="bg-img"><img src="web-assets/images/backgrounds/1.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row mb-40">
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <div class="heading__layout2">
+              <h3 class="heading__title">Why Healthcare Providers Trust Us.</h3>
+            </div>
+          </div><!-- /col-lg-5 -->
+          <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
+            <p class="heading__desc font-weight-bold">We provide certified, reliable, and innovative products that support
+               hospitals with consistent supply, customization, and premium quality.
+            </p>
+            <div class="d-flex flex-wrap align-items-center mt-40 mb-30">
+              <a href="{{ route('contact') }}" class="btn btn__primary btn__rounded mr-30">
+                <span>Request a Quote</span>
+                <i class="icon-arrow-right"></i>
+              </a>
+              <a href="#" class="btn btn__secondary btn__link">
+                <i class="icon-arrow-right icon-filled"></i>
+                <span>Learn More</span>
+              </a>
+            </div>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/1.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-heart"></i>
+                </div>
+                <h4 class="feature__title">GYNAECOLOGY</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
             </div>
           </div>
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/2.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-doctor"></i>
+                </div>
+                <h4 class="feature__title">GENERAL SURGERY</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/3.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-ambulance"></i>
+                </div>
+                <h4 class="feature__title">CARDIOVASCULAR</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/4.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-drugs"></i>
+                </div>
+                <h4 class="feature__title">ORTHOPEDIC</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/5.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-first-aid-kit"></i>
+                </div>
+                <h4 class="feature__title">UROLOGY</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/6.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-hospital"></i>
+                </div>
+                <h4 class="feature__title">NEUROLOGY</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/7.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-expenses"></i>
+                </div>
+                <h4 class="feature__title">OPHTHALMOLOGY</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="feature-item">
+              <div class="feature__img">
+                <img src="{{ asset('web-assets/images/services/8.png') }}" alt="service" loading="lazy">
+              </div>
+              <div class="feature__content">
+                <div class="feature__icon">
+                  <i class="icon-bandage"></i>
+                </div>
+                <h4 class="feature__title">SURGICAL GOWNS</h4>
+              </div>
+              <a href="{{ route('home') }}" class="btn__link">
+                <i class="icon-arrow-right icon-outlined"></i>
+              </a>
+            </div>
+          </div>
+
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-5">
-            <div class="text-with-icon">
-              <div class="text__icon">
-                <i class="icon-doctor"></i>
-              </div>
-              <div class="text__content">
-                <p class="heading__desc font-weight-bold color-secondary mb-30">At AlphaTec Surgical LLP, we are dedicated to
-                   supplying premium-quality surgical drapes, gowns, and medical textile solutions across Pakistan.
-                    Our products are designed to improve safety, efficiency, and reliability in modern healthcare environments.
-                </p>
-                <a href="doctors-timetable.html" class="btn btn__secondary btn__rounded mb-70">
-                  <span>About Us</span> <i class="icon-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-7">
-            <div class="about__text bg-white">
-              <p class="heading__desc mb-30">
-                We work closely with healthcare professionals to provide customizable draping packs, gowns,
-                 and medical textiles tailored to their procedural needs. Whether you require standard products 
-                 or custom-developed solutions, our team ensures accuracy, reliability, and timely delivery.
-              </p>
-              <p class="heading__desc mb-30">
-                We are dedicated to becoming the region’s leading provider of surgical and medical supplies by 
-                offering customer-centric, high-quality, and internationally compliant products.</p>
-              <ul class="list-items list-unstyled">
-                <li>We supply high-grade sterile surgical drapes and packs for various procedures.</li>
-                <li>Our materials are lint-free, fluid-resistant, and hypoallergenic—ideal for maintaining OT sterility.
-                </li>
-                <li>We offer technical guidance and customization, ensuring each hospital receives products that meet their exact protocols.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="col-md-12 col-lg-6 offset-lg-3 text-center">
+            <p class="font-weight-bold mb-0">Your Trusted Partner in Surgical Draping & Medical Supplies 
+              <a href="#" class="color-secondary">
+                <span>Contact Us For More Information</span> <i class="icon-arrow-right"></i>
+              </a>
+            </p>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
     </section>
 
     <section class="services-layout1 services-carousel">
@@ -435,214 +604,29 @@
         </div>
     </section>
 
-    <section class="notes border-top pt-60 pb-60">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="note font-weight-bold">
-              <i class="far fa-file-alt color-primary"></i>
-              <span>Providing reliable, quality products for your medical needs.</span>
-              <a href="doctors-timetable.html" class="btn btn__link btn__secondary">
-                <span>Explore Our Products</span><i class="icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="info__meta d-flex flex-wrap justify-content-between align-items-center">
-              <div class="testimonials__rating">
-                <div class="testimonials__rating-inner d-flex align-items-center">
-                  <span class="total__rate">4.9</span>
-                  <div>
-                    <span class="overall__rate">Customer Satisfaction Rating</span>
-                    <span>, based on 7541 reviews.</span>
-                  </div>
-                </div>
-              </div>
-              <a href="appointment.html" class="btn btn__primary btn__rounded">
-                <span>Contact Us</span> <i class="icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+    <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay-secondary">
+        {{-- <div class="bg-img"><img src="web-assets/images/banners/1.jpg" alt="background"></div> --}}
+        <div class="cta bg-primary pt-5">
+            <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-2 col-lg-2">
+                <img src="web-assets/images/icons/alert.png" class="cta__img" alt="alert">
+                </div><!-- /.col-lg-2 -->
+                <div class="col-sm-12 col-md-7 col-lg-7">
+                <h4 class="cta__title">True Healthcare For Your Family!</h4>
+                <p class="cta__desc">Serve the community by improving the quality of life through better health. We have
+                    put protocols to protect our patients and staff while continuing to provide medically necessary care.
+                </p>
+                </div><!-- /.col-lg-7 -->
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                <a href="{{ route('contact') }}" class="btn btn__secondary btn__secondary-style2 btn__rounded mr-30">
+                    <span>Healthcare Programs</span>
+                    <i class="icon-arrow-right"></i>
+                </a>
+                </div><!-- /.col-lg-3 -->
+            </div><!-- /.row -->
+            </div><!-- /.container -->
         </div>
-      </div>
-    </section>
-
-    <section class="features-layout2 pt-130 bg-overlay bg-overlay-primary">
-      <div class="bg-img"><img src="{{ asset('web-assets/images/backgrounds/2.jpg') }}" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
-            <div class="heading__layout2 mb-50">
-              <h3 class="heading__title color-white">AlphaTec Surgical LLP — Supporting Healthcare with Trusted Surgical Draping Solutions</h3>
-            </div>
-          </div><!-- /col-lg-5 -->
-        </div>
-        <div class="row mb-100">
-          <div class="col-sm-3 col-md-3 col-lg-1 offset-lg-5">
-            <div class="heading__icon">
-              <i class="icon-insurance"></i>
-            </div>
-          </div><!-- /.col-lg-5 -->
-          <div class="col-sm-9 col-md-9 col-lg-6">
-            <p class="heading__desc font-weight-bold color-white mb-30">Since 2023, AlphaTec Surgical LLP has been committed to 
-              delivering high-quality, sterile, and reliable surgical draping systems across Pakistan. Our mission is to enhance
-               surgical safety, improve procedural efficiency, and support hospitals with dependable medical supplies they can trust.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/1.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-heart"></i>
-                </div>
-                <h4 class="feature__title">GYNAECOLOGY</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/2.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-doctor"></i>
-                </div>
-                <h4 class="feature__title">GENERAL SURGERY</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/3.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-ambulance"></i>
-                </div>
-                <h4 class="feature__title">CARDIOVASCULAR</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/4.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-drugs"></i>
-                </div>
-                <h4 class="feature__title">ORTHOPEDIC</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-
-          </div>
-
-          <div class="row">
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/5.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-first-aid-kit"></i>
-                </div>
-                <h4 class="feature__title">UROLOGY</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/6.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-hospital"></i>
-                </div>
-                <h4 class="feature__title">NEUROLOGY</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/7.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-expenses"></i>
-                </div>
-                <h4 class="feature__title">OPHTHALMOLOGY</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="{{ asset('web-assets/images/services/8.png') }}" alt="service" loading="lazy">
-              </div>
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-bandage"></i>
-                </div>
-                <h4 class="feature__title">SURGICAL GOWNS</h4>
-              </div>
-              <a href="{{ route('home') }}" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-lg-6 offset-lg-3 text-center">
-            <p class="font-weight-bold color-gray mb-0">Your Trusted Partner in Surgical Draping & Medical Supplies
-              <a href="{{ route('home') }}" class="color-secondary">
-                <span>Contact Us For More Information</span> <i class="icon-arrow-right"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section class="testimonials-layout2 pt-130 pb-40">
@@ -715,84 +699,83 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="contact-panel mb-50">
-<form class="contact-panel__form" id="contactForm" onsubmit="sendToWhatsApp(event)">
-  <div class="row">
-    <div class="col-sm-12">
-      <h4 class="contact-panel__title">Need Assistance? We're Here to Help.</h4>
-      <p class="contact-panel__desc mb-30">
-        Whether you need support selecting the right drape, customizing a 
-        surgical pack, or placing a bulk order, our team is ready to assist you.
-      </p>
-    </div>
+              <form class="contact-panel__form" id="contactForm" onsubmit="sendToWhatsApp(event)">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h4 class="contact-panel__title">Need Assistance? We're Here to Help.</h4>
+                    <p class="contact-panel__desc mb-30">
+                      Whether you need support selecting the right drape, customizing a 
+                      surgical pack, or placing a bulk order, our team is ready to assist you.
+                    </p>
+                  </div>
 
-    <div class="col-sm-6">
-      <div class="form-group">
-        <i class="icon-news form-group-icon"></i>
-        <input type="text" class="form-control" placeholder="Name" id="contact-name" required>
-      </div>
-    </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <i class="icon-news form-group-icon"></i>
+                      <input type="text" class="form-control" placeholder="Name" id="contact-name" required>
+                    </div>
+                  </div>
 
-    <div class="col-sm-6">
-      <div class="form-group">
-        <i class="icon-email form-group-icon"></i>
-        <input type="email" class="form-control" placeholder="Email" id="contact-email" required>
-      </div>
-    </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <i class="icon-email form-group-icon"></i>
+                      <input type="email" class="form-control" placeholder="Email" id="contact-email" required>
+                    </div>
+                  </div>
 
-    <div class="col-sm-4">
-      <div class="form-group">
-        <i class="icon-phone form-group-icon"></i>
-        <input type="text" class="form-control" placeholder="Phone" id="contact-phone" required>
-      </div>
-    </div>
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <i class="icon-phone form-group-icon"></i>
+                      <input type="text" class="form-control" placeholder="Phone" id="contact-phone" required>
+                    </div>
+                  </div>
 
-    <div class="col-sm-4">
-      <div class="form-group form-group-date">
-        <i class="icon-calendar form-group-icon"></i>
-        <input type="date" class="form-control" id="contact-date" required>
-      </div>
-    </div>
+                  <div class="col-sm-4">
+                    <div class="form-group form-group-date">
+                      <i class="icon-calendar form-group-icon"></i>
+                      <input type="date" class="form-control" id="contact-date" required>
+                    </div>
+                  </div>
 
-    <div class="col-sm-4">
-      <div class="form-group form-group-date">
-        <i class="icon-clock form-group-icon"></i>
-        <input type="time" class="form-control" id="contact-time" required>
-      </div>
-    </div>
+                  <div class="col-sm-4">
+                    <div class="form-group form-group-date">
+                      <i class="icon-clock form-group-icon"></i>
+                      <input type="time" class="form-control" id="contact-time" required>
+                    </div>
+                  </div>
 
-    <div class="col-12">
-      <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
-        <span>Submit</span> <i class="icon-arrow-right"></i>
-      </button>
-    </div>
-  </div>
-</form>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
+                      <span>Submit</span> <i class="icon-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <script>
+                  function sendToWhatsApp(event) {
+                    event.preventDefault();
 
-<script>
-  function sendToWhatsApp(event) {
-    event.preventDefault();
+                    let name = document.getElementById("contact-name").value;
+                    let email = document.getElementById("contact-email").value;
+                    let phone = document.getElementById("contact-phone").value;
+                    let date = document.getElementById("contact-date").value;
+                    let time = document.getElementById("contact-time").value;
 
-    let name = document.getElementById("contact-name").value;
-    let email = document.getElementById("contact-email").value;
-    let phone = document.getElementById("contact-phone").value;
-    let date = document.getElementById("contact-date").value;
-    let time = document.getElementById("contact-time").value;
+                    let message =
+                      "New Contact Request:%0A%0A" +
+                      "Name: " + name + "%0A" +
+                      "Email: " + email + "%0A" +
+                      "Phone: " + phone + "%0A" +
+                      "Preferred Date: " + date + "%0A" +
+                      "Preferred Time: " + time;
 
-    let message =
-      "New Contact Request:%0A%0A" +
-      "Name: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Phone: " + phone + "%0A" +
-      "Preferred Date: " + date + "%0A" +
-      "Preferred Time: " + time;
+                    let whatsappNumber = "923206995613"; // WITHOUT + sign
 
-    let whatsappNumber = "923206995613"; // WITHOUT + sign
+                    let url = "https://wa.me/" + whatsappNumber + "?text=" + message;
 
-    let url = "https://wa.me/" + whatsappNumber + "?text=" + message;
-
-    window.open(url, "_blank");
-  }
-</script>
+                    window.open(url, "_blank");
+                  }
+              </script>
 
             </div>
           </div><!-- /.col-lg-7 -->
@@ -857,6 +840,37 @@
               </a>
             </div><!-- /.gallery-images-wrapper -->
           </div><!-- /.col-xl-5 -->
+        </div>
+      </div>
+    </section>
+        <section class="notes border-top pt-60 pb-60">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="note font-weight-bold">
+              <i class="far fa-file-alt color-primary"></i>
+              <span>Providing reliable, quality products for your medical needs.</span>
+              <a href="doctors-timetable.html" class="btn btn__link btn__secondary">
+                <span>Explore Our Products</span><i class="icon-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="info__meta d-flex flex-wrap justify-content-between align-items-center">
+              <div class="testimonials__rating">
+                <div class="testimonials__rating-inner d-flex align-items-center">
+                  <span class="total__rate">4.9</span>
+                  <div>
+                    <span class="overall__rate">Customer Satisfaction Rating</span>
+                    <span>, based on 7541 reviews.</span>
+                  </div>
+                </div>
+              </div>
+              <a href="{{ route('contact') }}" class="btn btn__primary btn__rounded">
+                <span>Contact Us</span> <i class="icon-arrow-right"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

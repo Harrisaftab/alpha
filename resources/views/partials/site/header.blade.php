@@ -16,7 +16,7 @@
                       </a>
                       <p>Please feel free to contact our friendly reception staff with any general or medical enquiry.
                       </p>
-                      <a href="appointment.html" class="btn btn__secondary btn__link btn__block">
+                      <a href="{{ route('contact') }}" class="btn btn__secondary btn__link btn__block">
                         <span>Make Appointment</span> <i class="icon-arrow-right"></i>
                       </a>
                     </div><!-- /.miniPopup-emergency -->
@@ -28,7 +28,7 @@
                     <i class="icon-location"></i><a href="#">Location: Shadman, North Nazimabad, Karachi.</a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><a href="contact-us.html">Mon - Fri: 9:00 am - 10:00 pm</a>
+                    <i class="icon-clock"></i><a href="{{ route('contact') }}">Mon - Fri: 9:00 am - 10:00 pm</a>
                   </li>
                 </ul><!-- /.contact__list -->
                 <div class="d-flex">
@@ -49,7 +49,7 @@
       </div><!-- /.header-top -->
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ asset('web-assets/images/logo/logo0.png') }}" class="logo-light" alt="logo">
             <img src="{{ asset('web-assets/images/logo/logo0.png') }}" class="logo-dark" alt="logo">
           </a>
@@ -83,22 +83,22 @@
             </div>
             <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
               <li class="nav__item">
-                <a href="department-single.html" class="nav__item-link">Neurology</a>
+                <a href="{{ route('all_services.index') }}" class="nav__item-link">Neurology</a>
               </li>
               <li class="nav__item">
-                <a href="department-single.html" class="nav__item-link">Cardiology</a>
+                <a href="{{ route('all_services.index') }}" class="nav__item-link">Cardiology</a>
               </li>
               <li class="nav__item">
-                <a href="department-single.html" class="nav__item-link">Pathology</a>
+                <a href="{{ route('all_services.index') }}" class="nav__item-link">Pathology</a>
               </li>
               <li class="nav__item">
-                <a href="department-single.html" class="nav__item-link">Laboratory</a>
+                <a href="{{ route('all_services.index') }}" class="nav__item-link">Laboratory</a>
               </li>
               <li class="nav__item">
-                <a href="department-single.html" class="nav__item-link">Cardiac</a>
+                <a href="{{ route('all_services.index') }}" class="nav__item-link">Cardiac</a>
               </li>
             </ul> <!-- /.miniPopup-departments -->
-            <a href="appointment.html" class="btn btn__primary btn__rounded ml-30">
+            <a href="{{ route('contact') }}" class="btn btn__primary btn__rounded ml-30">
               <i class="icon-calendar"></i>
               <span>Appointment</span>
             </a>

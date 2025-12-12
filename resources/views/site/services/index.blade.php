@@ -55,7 +55,7 @@
                 <h1 class="pagetitle__heading text-white">Our Products</h1>
                 <nav>
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white"><a href="{{ route('home') }}">Home</a></li>
                     <li class="breadcrumb-item active text-white" aria-current="page">Products</li>
                 </ol>
                 </nav>

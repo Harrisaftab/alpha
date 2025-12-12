@@ -11,7 +11,7 @@
     <meta name="keywords" content="surgical drapes, surgery packs, sterile gowns, medical textiles, surgical supplies Pakistan, healthcare distributor, AlphaTec Surgical LLP">
     <meta name="author" content="AlphaTec Surgical LLP">
     <meta name="robots" content="index, follow">
-    <meta name="google-site-verification" content="JzuAKKT0vXQUnnT258OUXEiaTSVKBzr3mnMpecX1kNg" />
+    <meta name="google-site-verification" content="lUBj7BBCSiS97w_vmmgg-gj2qjuAZAtJ2deOCv87yzY" />
     <link href="{{ asset('web-assets/images/favicon/favicon.png') }}" rel="icon">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">

@@ -9,7 +9,7 @@
               AlphaTec Surgical LLP is dedicated to providing high-quality surgical products with safety, reliability, 
               and excellence in service. We strive to be your trusted partner in healthcare solutions across Pakistan.
             </p>
-            <a href="contact-us.html" class="btn btn__primary btn__primary-style2 btn__link">
+            <a href="{{ route('contact') }}" class="btn btn__primary btn__primary-style2 btn__link">
               <span>Contact Us</span> <i class="icon-arrow-right"></i>
             </a>
           </div>
@@ -36,10 +36,11 @@
             <h6 class="footer-widget__title">Links</h6>
             <nav>
               <ul class="list-unstyled">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About Us</a></li>
+                <li><a href="{{ route('all_services.index') }}">Products</a></li>
+                <li><a href="#">Certifications</a></li>
+                <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 <li><a href="#">FAQ</a></li>
               </ul>
             </nav>
@@ -68,7 +69,7 @@
               </li>
             </ul>
             <div class="d-flex align-items-center">
-              <a href="contact-us.html" class="btn btn__primary btn__link mr-30">
+              <a href="{{ route('contact') }}" class="btn btn__primary btn__link mr-30">
                 <i class="icon-arrow-right"></i> <span>Get Directions</span>
               </a>
               <ul class="social-icons list-unstyled mb-0">
