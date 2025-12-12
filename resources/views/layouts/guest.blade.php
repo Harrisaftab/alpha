@@ -51,6 +51,16 @@
         @include('partials.site.footer')
         <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
     </div><!-- /.wrapper -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AlphaTec Surgical LLP",
+        "url": "https://www.alphatecsurgicalllp.com",
+        "logo": "https://www.alphatecsurgicalllp.com/og-image.png"
+        }
+    </script>
+
     <script src="{{ asset('web-assets/js/jquery-3.5.1.min.js') }}"></script>
     <script src="{{ asset('web-assets/js/plugins.js') }}"></script>
     <script src="{{ asset('web-assets/js/main.js') }}"></script>
