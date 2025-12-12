@@ -20,13 +20,14 @@
     <meta property="og:type" content="website" />
     <meta name="google-site-verification" content="lUBj7BBCSiS97w_vmmgg-gj2qjuAZAtJ2deOCv87yzY" />
 
-    <link rel="icon" type="image/png" href="{{ asset('web-assets/images/favicon/favicon.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('web-assets/images/favicon/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('web-assets/og-image.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('web-assets/og-image.png') }}">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet" href="{{ asset('web-assets/css/libraries.css') }}">
     <link rel="stylesheet" href="{{ asset('web-assets/css/style.css') }}">
+    
     <!-- Title -->
     <title>@yield('title', 'Bridgeway Logistics LLC')</title>
     <!-- Canonical -->
@@ -51,20 +52,13 @@
         @include('partials.site.footer')
         <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
     </div><!-- /.wrapper -->
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "AlphaTec Surgical LLP",
-        "url": "https://www.alphatecsurgicalllp.com",
-        "logo": "https://www.alphatecsurgicalllp.com/og-image.png"
-        }
-    </script>
+
 
     <script src="{{ asset('web-assets/js/jquery-3.5.1.min.js') }}"></script>
     <script src="{{ asset('web-assets/js/plugins.js') }}"></script>
     <script src="{{ asset('web-assets/js/main.js') }}"></script>
 
     @yield('scripts')
+
 </body>
 </html>
