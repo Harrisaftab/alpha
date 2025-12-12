@@ -11,8 +11,17 @@
     <meta name="keywords" content="surgical drapes, surgery packs, sterile gowns, medical textiles, surgical supplies Pakistan, healthcare distributor, AlphaTec Surgical LLP">
     <meta name="author" content="AlphaTec Surgical LLP">
     <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AlphaTec Surgical LLP" />
+    <meta property="og:description" content="Premium-quality surgical drapes, gowns, and medical textile solutions across Pakistan." />
+    <meta property="og:image" content="https://www.alphatecsurgicalllp.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://www.alphatecsurgicalllp.com/" />
+    <meta property="og:type" content="website" />
     <meta name="google-site-verification" content="lUBj7BBCSiS97w_vmmgg-gj2qjuAZAtJ2deOCv87yzY" />
-    <link href="{{ asset('web-assets/images/favicon/favicon.png') }}" rel="icon">
+
+    <link rel="icon" type="image/png" href="{{ asset('web-assets/images/favicon/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('web-assets/images/favicon/favicon.png') }}">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
@@ -24,6 +33,16 @@
     <link rel="canonical" href="{{ url()->current() }}">
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AlphaTec Surgical LLP",
+        "url": "https://www.alphatecsurgicalllp.com",
+        "logo": "https://www.alphatecsurgicalllp.com/og-image.png"
+        }
+    </script>
+
 </head>
 
 <body>
