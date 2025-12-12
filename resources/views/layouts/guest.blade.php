@@ -32,7 +32,6 @@
     <!-- Canonical -->
     <link rel="canonical" href="{{ url()->current() }}">
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script type="application/ld+json">
         {
         "@context": "https://schema.org",
@@ -42,6 +41,7 @@
         "logo": "https://www.alphatecsurgicalllp.com/og-image.png"
         }
     </script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
 
