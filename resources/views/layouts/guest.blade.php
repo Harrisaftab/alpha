@@ -20,8 +20,8 @@
     <meta property="og:type" content="website" />
     <meta name="google-site-verification" content="lUBj7BBCSiS97w_vmmgg-gj2qjuAZAtJ2deOCv87yzY" />
 
-    <link rel="icon" type="image/png" href="{{ asset('web-assets/og-image.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('web-assets/og-image.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('web-assets/images/favicon/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('web-assets/images/favicon/favicon.png') }}">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
