@@ -29,9 +29,9 @@
     <link rel="stylesheet" href="{{ asset('web-assets/css/style.css') }}">
     
     <!-- Title -->
-    <title>@yield('title', 'Bridgeway Logistics LLC')</title>
+    <title>@yield('title', 'AlphaTec Surgical LLP | Surgical Drapes & Medical Textiles in Pakistan')</title>
     <!-- Canonical -->
-    <link rel="canonical" href="{{ url()->current() }}">
+    <link rel="canonical" href="{{ request()->url() }}">
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 

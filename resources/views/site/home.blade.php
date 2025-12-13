@@ -1,6 +1,6 @@
 @extends('layouts.guest')
-@section('title', 'Home – AlphaTec Surgical LLP')
-@section('meta_description', 'AlphaTec Surgical LLP provides premium quality surgical drapes, disposable surgery packs, medical textiles, and sterile gowns across Pakistan. Trusted supplier for hospitals, clinics, and healthcare facilities.')
+@section('title', 'Surgical Drapes & Medical Textiles Supplier in Pakistan | AlphaTec Surgical LLP')
+@section('meta_description', 'AlphaTec Surgical LLP is a trusted supplier of surgical drapes, disposable surgery packs, sterile gowns, and medical textiles for hospitals across Pakistan.')
 @section('meta_keywords', 'surgical drapes, disposable surgery packs, sterile gowns, medical textiles, surgical products Pakistan, AlphaTec Surgical LLP, healthcare supplies, surgery sets, hospital drapes, medical supplies distributor')
 @section('content')
 <style>
