@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bridgewaylogisticsllc.com/sitemap.xml
+Sitemap: https://alphatecsurgicalllp.com/sitemap.xml
