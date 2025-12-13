@@ -58,7 +58,7 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                         <div class="slide__content mx-5">
-                            <h2 class="slide__title text-white">Premium Surgical Draping Solutions</h2>
+                            <h1 class="slide__title text-white">Premium Surgical Draping Solutions</h1>
                             <p class="slide__desc text-white">AlphaTec Surgical LLP delivers safe, sterile, and comfortable solutions for every procedure, providing 
                               high-quality surgical drapes, gowns, and disposable surgery packs trusted by hospitals, clinics, and 
                               healthcare professionals across Pakistan.

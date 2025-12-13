@@ -35,6 +35,22 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+    @verbatim
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "AlphaTec Surgical LLP",
+    "url": "https://www.alphatecsurgicalllp.com/",
+    "logo": "https://www.alphatecsurgicalllp.com/web-assets/images/favicon/favicon.png",
+    "description": "Supplier of surgical drapes, sterile gowns, disposable surgery packs, and medical textiles across Pakistan.",
+    "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PK"
+    }
+    }
+    </script>
+    @endverbatim
 
 </head>
 
