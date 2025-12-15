@@ -11,8 +11,8 @@
                       <div class="emergency__icon">
                         <i class="icon-call3"></i>
                       </div>
-                      <a href="tel:+923700293715" class="phone__number">
-                        <i class="icon-phone"></i> <span>+92 370 0293715</span>
+                      <a href="tel:+923206995613" class="phone__number">
+                        <i class="icon-phone"></i> <span>+92 320 6995613</span>
                       </a>
                       <p>Please feel free to contact our friendly reception staff with any general or medical enquiry.
                       </p>
