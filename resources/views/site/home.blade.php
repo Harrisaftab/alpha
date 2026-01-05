@@ -296,7 +296,7 @@
                 </div>
                 <h4 class="feature__title">GYNAECOLOGY</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -313,7 +313,7 @@
                 </div>
                 <h4 class="feature__title">GENERAL SURGERY</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -330,7 +330,7 @@
                 </div>
                 <h4 class="feature__title">CARDIOVASCULAR</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -347,7 +347,7 @@
                 </div>
                 <h4 class="feature__title">ORTHOPEDIC</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -368,7 +368,7 @@
                 </div>
                 <h4 class="feature__title">UROLOGY</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -385,7 +385,7 @@
                 </div>
                 <h4 class="feature__title">NEUROLOGY</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -402,7 +402,7 @@
                 </div>
                 <h4 class="feature__title">OPHTHALMOLOGY</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
@@ -419,7 +419,7 @@
                 </div>
                 <h4 class="feature__title">SURGICAL GOWNS</h4>
               </div>
-              <a href="{{ route('home') }}" class="btn__link">
+              <a href="{{ route('all_services.index') }}" class="btn__link">
                 <i class="icon-arrow-right icon-outlined"></i>
               </a>
             </div>
