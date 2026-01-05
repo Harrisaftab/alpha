@@ -22,10 +22,10 @@
                     </div><!-- /.miniPopup-emergency -->
                   </li>
                   <li>
-                    <i class="icon-phone"></i><a href="tel:+5565454117">Emergency Line: (002) 01061245741</a>
+                    <i class="icon-phone"></i><a href="tel:+923206995613">Emergency Call: +92 320 6995613</a>
                   </li>
                   <li>
-                    <i class="icon-location"></i><a href="#">Location: Shadman, North Nazimabad, Karachi.</a>
+                    <i class="icon-location"></i><a href="https://www.google.com/maps/dir//A+536+2nd+floor+14%2FB,+Shadman+Town,+Karachi,+75850/@24.9551104,67.0583741,15z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3eb33fec4301e163:0xd29d94c94a25ad20!2m2!1d67.0631115!2d24.9625178?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D">Location: Shadman, North Nazimabad, Karachi.</a>
                   </li>
                   <li>
                     <i class="icon-clock"></i><a href="{{ route('contact') }}">Mon - Fri: 9:00 am - 10:00 pm</a>

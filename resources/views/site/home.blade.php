@@ -170,7 +170,6 @@
             </div>
         </div>
     </section>
-
     <section class="contact-info py-0">
       <div class="container">
         <div class="row row-no-gutter boxes-wrapper">
@@ -222,7 +221,6 @@
         </div>
       </div>
     </section>
-
     <section class="about-layout1 pb-0">
       <div class="container">
         <div class="row">
@@ -260,7 +258,6 @@
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section>
-
     <section class="features-layout1 pt-130 pb-50 mt--90">
       <div class="bg-img"><img src="web-assets/images/backgrounds/1.jpg" alt="background"></div>
       <div class="container">
@@ -440,7 +437,6 @@
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section>
-
     <section class="services-layout1 services-carousel">
         <div class="bg-img"><img src="{{ asset('web-assets/images/backgrounds/2.jpg') }}" alt="background"></div>
         <div class="container">
@@ -603,7 +599,6 @@
         </div>
         </div>
     </section>
-
     <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay-secondary">
         {{-- <div class="bg-img"><img src="web-assets/images/banners/1.jpg" alt="background"></div> --}}
         <div class="cta bg-primary pt-5">
@@ -628,7 +623,6 @@
             </div><!-- /.container -->
         </div>
     </section>
-
     <section class="testimonials-layout2 pt-130 pb-40">
       <div class="container">
         <div class="testimonials-wrapper">
@@ -692,7 +686,6 @@
         </div>
       </div>
     </section>
-
     <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
       <div class="bg-img"><img src="{{ asset('web-assets/images/banners/3.jpg') }}" alt="banner"></div>
       <div class="container">
@@ -807,7 +800,6 @@
         </div>
       </div>
     </section>
-
     <section class="gallery pt-90 pb-90">
       <div class="container">
         <div class="row">
@@ -843,7 +835,7 @@
         </div>
       </div>
     </section>
-        <section class="notes border-top pt-60 pb-60">
+    <section class="notes border-top pt-60 pb-60">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6">

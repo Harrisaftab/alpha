@@ -32,6 +32,40 @@ Route::get('/trems&conditions', [HomeController::class, 'trems'])->name('trems')
 
 // 🔹 Services
 Route::get('/products', [FrontendServiceController::class, 'index'])->name('all_services.index');
+
+Route::view('/products/c-section-pack', 'site.products.c-section-pack');
+Route::view('/products/c-section-drape-sheet', 'site.products.c-section-drape-sheet');
+Route::view('/products/birth-pack', 'site.products.birth-pack');
+Route::view('/products/delivery-pack', 'site.products.delivery-pack');
+
+Route::view('/products/general-surgery-pack', 'site.products.general-surgery-pack');
+Route::view('/products/laparotomy-pack', 'site.products.laparotomy-pack');
+Route::view('/products/laparotomy-drape-sheet', 'site.products.laparotomy-drape-sheet');
+
+Route::view('/products/bypass-pack', 'site.products.bypass-pack');
+Route::view('/products/angiography-pack', 'site.products.angiography-pack');
+Route::view('/products/angioplasty-pack', 'site.products.angioplasty-pack');
+
+Route::view('/products/basic-orthopedic-pack', 'site.products.basic-orthopedic-pack');
+Route::view('/products/hip-pack', 'site.products.hip-pack');
+Route::view('/products/arthroplasty-pack', 'site.products.arthroplasty-pack');
+Route::view('/products/arthroscopy-pack', 'site.products.arthroscopy-pack');
+
+Route::view('/products/pcnl-pack', 'site.products.pcnl-pack');
+Route::view('/products/pcnl-drape-sheet', 'site.products.pcnl-drape-sheet');
+Route::view('/products/turp-pack', 'site.products.turp-pack');
+Route::view('/products/turp-drape-sheet', 'site.products.turp-drape-sheet');
+
+Route::view('/products/craniotomy-pack', 'site.products.craniotomy-pack');
+Route::view('/products/laminectomy-pack', 'site.products.laminectomy-pack');
+
+Route::view('/products/isolation-gown-level-1', 'site.products.isolation-gown-level-1');
+Route::view('/products/standard-gown-level-2', 'site.products.standard-gown-level-2');
+Route::view('/products/reinforced-surgical-gown-level-3', 'site.products.reinforced-surgical-gown-level-3');
+// Route::view('/products/fully-reinforced-surgical-gown-level-4', 'site.products.fully-reinforced-surgical-gown-level-4');
+
+Route::view('/products/ophthalmic-pack', 'site.products.ophthalmic-pack');
+
 Route::get('/service/{slug}', [FrontendServiceController::class, 'show'])->name('services.show.detail');
 Route::get('/services/car', [FrontendServiceController::class, 'carservice'])->name('services.car-shipping');
 Route::get('/services/motorcycle', [FrontendServiceController::class, 'bikeservice'])->name('services.motorcycle-shipping');

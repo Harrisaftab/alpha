@@ -80,24 +80,20 @@
                             <a href="#">Gynaecology & Obstetrics</a>
                         </div>
 
-                        <h4 class="post__title">
-                            <a href="#">C-Section Pack</a><br>
-                            <a href="#">C-Section Drape Sheet</a><br>
-                            <a href="#">Birth Pack</a><br>
-                            <a href="#">Delivery Pack</a>
-                        </h4>
-
+                        
                         <p class="post__desc">
                             Our Gynaecology & Obstetrics range includes fully sterile, ready-to-use surgical packs designed 
-                            for maternal care procedures. Each pack ensures superior fluid absorption, exceptional barrier 
-                            protection, and enhanced comfort — enabling safer, faster, and more efficient surgical workflows 
-                            in the operating room.
+                            for maternal care procedures. Each pack delivers superior absorption, strong barrier protection, and enhanced comfort for safer, 
+                            more efficient surgeries worldwide, supporting medical teams with reliable performance.
                         </p>
-
-                        <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                            <span>View Details</span>
-                            <i class="icon-arrow-right"></i>
-                        </a>
+                        
+                        <h4 class="post__title mt-3">
+                            <a href="{{ url('/products/c-section-pack') }}">C-Section Pack</a><br>
+                            <a href="{{ url('/products/c-section-drape-sheet') }}">C-Section Drape Sheet</a><br>
+                            <a href="{{ url('/products/birth-pack') }}">Birth Pack</a><br>
+                            <a href="{{ url('/products/delivery-pack') }}">Delivery Pack</a>
+                        </h4>
+                        
                     </div>
                 </div>
             </div>
@@ -115,23 +111,20 @@
                         <a href="#">General Surgery</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">General Surgery Pack</a><br>
-                        <a href="#">Laparotomy Pack</a><br>
-                        <a href="#">Laparotomy Drape Sheet</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
                         Designed to support a wide range of surgical procedures, our General Surgery line offers 
                         exceptional fluid control, durable barrier protection, and seamless OR workflow efficiency. 
                         Each pack is engineered to enhance patient safety, minimize infection risks, and improve 
                         surgeon comfort during extended operations.
                     </p>
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/general-surgery-pack') }}">General Surgery Pack</a><br>
+                        <a href="{{ url('/products/laparotomy-pack') }}">Laparotomy Pack</a><br>
+                        <a href="{{ url('/products/laparotomy-drape-sheet') }}">Laparotomy Drape Sheet</a>
+                    </h4>
 
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    
                     </div>
                 </div>
             </div>
@@ -149,23 +142,20 @@
                         <a href="#">Cardiovascular</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">Bypass Pack</a><br>
-                        <a href="#">Angiography Pack</a><br>
-                        <a href="#">Angioplasty Pack</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
                         Precision-engineered for high-risk cardiac procedures, our Cardiovascular series delivers 
                         superior fluid management, reinforced barrier protection, and exceptional sterility. 
-                        Each pack is designed to support surgeons during complex interventions—ensuring safety, 
-                        efficiency, and uncompromised performance inside the operating room.
+                        Each pack is designed to support surgeons during complex interventions—ensuring safety
+                     and uncompromised performance inside the operating room.
                     </p>
-
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/bypass-pack') }}">Bypass Pack</a><br>
+                        <a href="{{ url('/products/angiography-pack') }}">Angiography Pack</a><br>
+                        <a href="{{ url('/products/angioplasty-pack') }}">Angioplasty Pack</a>
+                    </h4>
+                    
                     </div>
                 </div>
             </div>
@@ -183,24 +173,21 @@
                         <a href="#">Orthopedic</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">Basic Orthopedic Pack</a><br>
-                        <a href="#">Hip Pack</a><br>
-                        <a href="#">Arthroscopy Pack</a><br>
-                        <a href="#">Arthroplasty Pack</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
                         Designed for precision-driven orthopedic procedures, our orthopedic range offers 
                         advanced barrier protection, efficient fluid control, and ergonomic setup for seamless 
                         surgical workflow. Each pack is tailored to support joint replacement, spinal surgeries, 
                         and minimally invasive procedures with reliability and superior sterility.
                     </p>
-
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/basic-orthopedic-pack') }}">Basic Orthopedic Pack</a><br>
+                        <a href="{{ url('/products/hip-pack') }}">Hip Pack</a><br>
+                        <a href="{{ url('/products/arthroscopy-pack') }}">Arthroscopy Pack</a><br>
+                        <a href="{{ url('/products/arthroplasty-pack') }}">Arthroplasty Pack</a>
+                    </h4>
+                    
                     </div>
                 </div>
             </div>
@@ -218,24 +205,21 @@
                         <a href="#">Urology</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">PCNL Pack</a><br>
-                        <a href="#">PCNL Drape Sheet</a><br>
-                        <a href="#">TURP Pack</a><br>
-                        <a href="#">TURP Drape Sheet</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
-                        Tailored for precision and safety in urological procedures, our Urology series offers optimum 
+                        Our Urology series offers optimum 
                         fluid management, superior barrier protection, and seamless workflow support. Whether for PCNL 
                         or TURP surgeries, each pack is engineered to maintain sterility, enhance surgeon confidence, 
                         and deliver a controlled, contamination-free operative environment.
                     </p>
-
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/pcnl-pack') }}">PCNL Pack</a><br>
+                        <a href="{{ url('/products/pcnl-drape-sheet') }}">PCNL Drape Sheet</a><br>
+                        <a href="{{ url('/products/turp-pack') }}">TURP Pack</a><br>
+                        <a href="{{ url('/products/turp-drape-sheet') }}">TURP Drape Sheet</a>
+                    </h4>
+                    
                     </div>
                 </div>
             </div>
@@ -253,22 +237,19 @@
                         <a href="#">Neurology</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">Craniotomy Pack</a><br>
-                        <a href="#">Laminectomy Pack</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
                         Designed for high-precision neurosurgical procedures, our Neurology series ensures maximum 
                         sterility, patient protection, and operative control. Each pack supports complex cranial and 
                         spinal surgeries with superior fluid absorption, barrier performance, and ergonomic layouts that 
                         enhance surgeon efficiency and reduce infection risks.
                     </p>
-
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/craniotomy-pack') }}">Craniotomy Pack</a><br>
+                        <a href="{{ url('/products/laminectomy-pack') }}">Laminectomy Pack</a>
+                    </h4>
+                    
                     </div>
                 </div>
             </div>
@@ -286,21 +267,17 @@
                         <a href="#">Surgical Gowns</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">Isolation Gown – Level I</a><br>
-                        <a href="#">Standard Gown – Level II</a><br>
-                        <a href="#">Reinforced Surgical Gown – Level III</a><br>
-                        <a href="#">Fully Reinforced Surgical Gown – Level IV</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
                         Premium-quality medical gowns engineered for unmatched fluid resistance, durability, and comfort. Available in four protection levels, these gowns support a wide range of surgical and clinical procedures—ensuring safety, sterility, and reliable performance for healthcare teams.
                     </p>
-
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/isolation-gown-level-1') }}">Isolation Gown – Level I</a><br>
+                        <a href="{{ url('/products/standard-gown-level-2') }}">Standard Gown – Level II</a><br>
+                        <a href="{{ url('/products/reinforced-surgical-gown-level-3') }}">Reinforced Surgical Gown – Level III</a>
+                    </h4>
+                    
                     </div>
                 </div>
             </div>
@@ -318,10 +295,7 @@
                         <a href="#">Ophthalmology</a>
                     </div>
 
-                    <h4 class="post__title">
-                        <a href="#">Ophthalmic Pack</a>
-                    </h4>
-
+                    
                     <p class="post__desc">
                         A sterile, precision-designed surgical pack made specifically for ophthalmic procedures. 
                         The Ophthalmic Pack ensures exceptional visibility, fluid management, and 
@@ -329,10 +303,10 @@
                         safety, and complete confidence.
                     </p>
 
-                    <a href="{{ route('home') }}" class="btn btn__secondary btn__link btn__rounded">
-                        <span>View Details</span>
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                    <h4 class="post__title mt-3">
+                        <a href="{{ url('/products/ophthalmic-pack') }}">Ophthalmic Pack</a>
+                    </h4>
+                    
                     </div>
                 </div>
             </div>
